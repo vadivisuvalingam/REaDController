@@ -1,0 +1,27 @@
+// Device.cpp: implementation of the CDevice class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "READ Test.h"
+#include "Device.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CDevice::CDevice()
+{
+
+}
+
+CDevice::~CDevice()
+{
+
+}

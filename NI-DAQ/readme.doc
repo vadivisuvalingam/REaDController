@@ -1,0 +1,489 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f6\fmodern\fcharset0\fprq1{\*\panose 00000000000000000000}Courier;}}{\colortbl;\red0\green0\blue0;
+\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;
+\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\nowidctlpar\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}}{\*\listtable{\list\listtemplateid-1
+\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext\'01*;}{\levelnumbers;}}{\listname ;}\listid-2}}{\*\listoverridetable{\listoverride\listid-2\listoverridecount1{\lfolevel\listoverrideformat{\listlevel
+\levelnfc23\leveljc0\levelfollow0\levelstartat0\levelold\levelspace0\levelindent360{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 }}\ls1}}{\info{\author Kyle Evans}{\operator Kyle Evans}{\creatim\yr1998\mo3\dy26\hr15}
+{\revtim\yr1998\mo4\dy13\hr15\min26}{\printim\yr1998\mo3\dy26\hr15\min43}{\version10}{\edmins27}{\nofpages11}{\nofwords3801}{\nofchars21667}{\*\company  }{\nofcharsws0}{\vern71}}\widowctrl\ftnbj\aenddoc\hyphcaps0\viewkind4\viewscale100 \fet0\sectd 
+\linex0\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang
+{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \nowidctlpar\adjustright \fs20\cgrid {\b\f2\fs28\cgrid0 *** NI-DAQ 6.1 Readme File
+\par 
+\par }{\f6\cgrid0 Thank you for using NI-DAQ 6.1 for Windows 95 and Windows NT 4.0.
+\par 
+\par This file contains important information regarding NI-DAQ 6.1.  Please read it carefully so that you will be aware of any known problems or incompatibilities.  Since the 6.1 release follows the NI-DAQ 6.0 release
+\par by only a few months, much of the 6.0 \ldblquote what\rquote s new\rdblquote  information is
+\par repeated here also.
+\par 
+\par Information in this file is organized in the following sections:
+\par 
+\par New products and feature summary
+\par Known problems
+\par Operating system specific information
+\par Configuring products with your operating system
+\par Specific hardware products
+\par USB support requirements and limitations
+\par OPC Server for NI-DAQ
+\par Remote Device Access (RDA)
+\par Miscellaneous
+\par 
+\par 
+\par 
+\par }{\b\f2\fs28\cgrid0 *** New Products and Feature Summary
+\par }{\b\f6\cgrid0 
+\par }{\b\f6\ul\cgrid0 New Products
+\par }{\f6\cgrid0 
+\par The following new products are supported in NI-DAQ 6.1:
+\par \'b7\tab PCI-4451, 4452, 4551, 4552  ***
+\par \'b7\tab PCI-4060, PXI-4060, PC-4060  ***
+\par \'b7\tab PXI-6110E
+\par \'b7\tab PXI-6111E
+\par \'b7\tab PXI-6031E
+\par \'b7\tab PXI-6071E
+\par \'b7\tab PXI-6503
+\par \'b7\tab PXI-6508
+\par \'b7\tab SCC-DI01
+\par \'b7\tab SCC-DO01
+\par \'b7\tab SCC-LP01\'85LP05
+\par 
+\par The following new products were supported for the first
+\par Time in NI-DAQ 6.0:
+\par \'b7\tab PXI-1010 (PXI Chassis with SCXI slots)
+\par \'b7\tab PXI-5102 ***
+\par \'b7\tab SCXI-1126
+\par \'b7\tab PC-6503
+\par \'b7\tab PCI-6110E
+\par \'b7\tab PCI-6111E
+\par \'b7\tab DAQPad-6507 (USB-DIO-96)
+\par \'b7\tab DAQPad-4350 (USB-4350) ***
+\par \'b7\tab DAQPad-5102 (USB-5102) ***
+\par 
+\par Products marked *** are supported only in LabVIEW, LabWindows/CVI Easy I/O, and by Instrument Drivers.  There is no NI-DAQ API support for these products.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 New Features
+\par }{\f6\cgrid0 
+\par The main purpose for the NI-DAQ 6.1 release is to support the new products listed above.  However, several new features are also a part of this release.
+\par 
+\par The following new features are supported in NI-DAQ 6.1:
+\par \'b7\tab NI-DAQ 6.1 now contains LabVIEW VIs in native LabVIEW 5.0 format. 
+\par \'b7\tab Configuration of RDA devices is now carried out in the standard NI-DAQ Configuration Utility, instead of in a separate utility. 
+\par 
+\par The following new features are supported in NI-DAQ 6.0:
+\par \'b7\tab DAQ Channel Wizard support for analog output and digital channels
+\par \'b7\tab }{\f6\cf1\cgrid0 RDA Remote Device Access within LabVIEW and the CVI Easy IO Library}{\f6\cgrid0 
+\par \'b7\tab OPC server for use with Industrial Automation applications
+\par 
+\par }{\b\i\f6\cgrid0 
+\par }{\b\f6\ul\cgrid0 New NI-DAQ Functions
+\par }{\b\f6\cgrid0 
+\par }{\f6\cgrid0 There are no new NI-DAQ functions introduced in revision 6.1.
+\par 
+\par The following functions have been added to the }{\i\f6\cgrid0 NI-DAQ Function Reference Manual for PC Compatibles}{\f6\cgrid0  for the NI-DAQ 6.0 release:
+\par \'b7\tab AI_Change_Parameter
+\par \'b7\tab SCXI_Set_Threshold
+\par \'b7\tab Line_Change_Attribute
+\par \'b7\tab Calibrate_DSA
+\par \'b7\tab DAQ_Set_Clock
+\par \'b7\tab WFM_Set_Clock
+\par 
+\par 
+\par 
+\par }{\b\f2\fs28\cgrid0 *** Known Problems}{\b\f6\cgrid0 
+\par }{\f6\cgrid0 
+\par {\pntext\pard\plain\f3\fs20\cf1 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnindent360 {\pntxtb \'b7}}\ls1\adjustright {\f6\cf1\cgrid0 
+You Must Reprogram Your SCXI-2000 and SCXI-2400 to work with NI-DAQ 6.1. Refer to the hardware specific portion of the readme for more details.
+\par }\pard \nowidctlpar\adjustright {\b\f6\cgrid0 
+\par 
+\par }{\b\f2\fs28\cgrid0 *** Operating System Specific Information
+\par }{\b\f6\cgrid0 
+\par }{\b\f6\ul\cgrid0 Windows 3.x Not Supported by NI-DAQ 6.1
+\par }{\f1\cgrid0 
+\par }{\f6\cgrid0 Beginning with NI-DAQ version 5.1, Windows 3.x is no longer supported.  To use Windows 3.x, you must use NI-DAQ version 5.0.x or earlier.  The NI-DAQ 6.1 CD also contains NI-DAQ version 5.0.5 which you can install from Windows 3.x.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 16-Bit Programs Under Windows 95
+\par }{\b\f6\cgrid0 
+\par }{\f6\cgrid0 NI-DAQ 6.1 no longer support 16-bit programs under Windows 95. You must use NI-DAQ 5.1 or earlier if you want to write 16-bit applications under Windows 95. The 16-bit import library and 16bit DLL are no longer available.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 Miscellaneous NT Topics
+\par }{\b\f6\cgrid0 
+\par }{\f6\cgrid0 1) NI-DAQ 6.1 is intended to run with Windows NT Version 4.0 and higher.
+\par 
+\par 2) As of NI-DAQ 5.0, the NI-DAQ C API function prototypes for Windows NT have changed.  In the NI-DAQ 6.1 C API, Windows 95 and Windows NT share the same function prototypes.
+\par 
+\par 3) Because of the parameter changes (from i32 to i16) and also the use of NIDAQ32.DLL instead of NIDAQ.DLL, NT programs that write to the C language interface using NIDAQ 4.
+9.0f2 and earlier will not work with NIDAQ 6.1.  To fix the problem, recompile the programs with nidaq.h (this file comes with NIDAQ 6.1), fix the type mismatch of the called NIDAQ functions parameters, and link it with NIDAQ32.LIB.
+\par 
+\par 4) Windows NT limits t
+he total amount of memory that is page locked.  The default amount of memory is determined according to the total amount of physical memory available in your system.  If you are working with large data acquisition buffers, you might encounter an }{
+\b\f6\cgrid0 outOfMemoryError}{\f6\cgrid0 , unless you increase the default I/O page lock limit using the Windows NT Registry Editor, regedt32.exe.  
+\par 
+\par The IoPageLockLimit registry key is located in: HKEY_LOCAL_MACHINE\\CurrentControlSet\\Control\\Session Manager\\Memory Management 
+\par 
+\par By default, 
+this limit is 0, which indicates to the system that it should use a built-in algorithm to determine the amount of available memory. You can change this value to indicate the number of bytes that can be page locked.  For example, set this value to 1048576 
+to lock down 1 MB of memory.
+\par 
+\par WARNING: Use caution when changing this value. The default value computed by the system when IoPageLockLimit equals 0 is tuned specifically for system performance.  Allowing the system to lock down more memory can have a detrim
+ental effect on system performance and can even render your machine non-usable.  Change this value with caution.
+\par 
+\par 5) You can install ISA Plug and Play DAQ Devices in Windows NT.  The order of installation is : (1) NIDAQ 6.1; (2) ISA Plug and Play Device Driver (see }{\b\f6\cgrid0 Configuring ISA Plug and Play Devices for Windows NT 4.0 }{\f6\cgrid0 
+later in this readme file); (3) Plug in the ISA PnP device.
+\par 
+\par 6) NI-DAQ 6.1 now supports the full DAQ product line on dual processor machines.
+\par 
+\par 7) Moving or resizing a LabVIEW front panel while a data acquisition is running might cause NT to freeze. This problem will be fixed in a future version of LabVIEW.
+\par 
+\par 
+\par 
+\par }{\b\f2\fs28\cgrid0 *** Configuring Products with your Operating System}{\b\f6\cgrid0 
+\par }{\f6\cgrid0 
+\par }{\b\f6\ul\cgrid0 Configuration File Format Update}{\b\f6\cgrid0 
+\par }{\f6\cgrid0 
+\par T
+he format of your configuration file has changed in NI-DAQ 6.1. The driver will recognize your existing configuration file and will operate correctly. However, the NI-DAQ 6.1 Configuration Utility will automatically update your configuration file to the n
+ew format the first time it is run. The new file format will not be recognized by previous versions of NI-DAQ. You will be prompted before this happens and a backup will be made of your original file.
+\par }{\b\f6\cgrid0 
+\par }{\f6\cgrid0 If you are using versions of NI-DAQ prior to 5.0, the N
+I-DAQ 6.1 Configuration Utility will not be able to read your SCXI and DAQ configuration information.  You should record your gains and other settings for SCXI and DAQ hardware before installing NI-DAQ 6.1 over NI-DAQ 4.9.0 or earlier.  The WDAQCONF.TXT f
+ile in your Windows directory contains much of the information that you will need.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 Using Multiple Configuration Files
+\par 
+\par }{\f6\cgrid0 When using multiple configuration files you must remember that only devices that are currently in the computer will be displayed.  For e
+xample, if configuration one has a DAQCard-700 cabled to a SCXI chassis and the user removes the DAQCard-700 and puts a DAQCard-500 in instead, when configuration one is opened the SCXI chassis will not have a cabled device and the DAQCard-700 will not ap
+pear.  All SCXI information will be saved no matter if the SCXI hardware is present or not.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 Resource Ordering on AT Products with Multiple IRQs or DMA Channels}{\b\f6\cgrid0 
+\par }{\f6\cgrid0 
+\par AT products with multiple IRQs or DMA Channels (such as the AT-DIO-32F) need these resources c
+onfigured in a specific order. If you have already tried configuring your device and you are certain you have selected the DMA and IRQ resources that match your jumper settings and you are getting test failure notices from the configuration utility, try t
+he following:
+\par 
+\par Change one of the resources to }{\b\f6\cgrid0 not assigned}{\f6\cgrid0 . Change the remaining resource to the other value of the pair.  Select the apply button.  Now set the one that is }{\b\f6\cgrid0 not assigned }{\f6\cgrid0 
+to the final value of the pair and select }{\b\f6\cgrid0 OK }{\f6\cgrid0 or }{\b\f6\cgrid0 Apply}{\f6\cgrid0 .  This will swap the resource order.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 Configuring ISA Plug and Play Devices for Windows NT 4.0
+\par }{\b\f6\cgrid0 
+\par }{\f6\cgrid0 If you plan to use ISA Plug and Play DAQ devices on Window
+s NT 4.0, you must first install the Windows NT 4.0 ISA Plug and Play driver before configuring your device with the NI-DAQ Configuration Utility.  This driver is not installed by default.  Follow these steps to install the driver:
+\par 
+\par 1) \tab Insert your Windows NT 4.0 CD.
+\par 
+\par 2) \tab Go the \\Drvlib\\Pnpisa\\X86 directory.
+\par 
+\par 3) \tab Right-click once on the Pnpisa.inf file, select the Install option, and follow the instructions.
+\par 
+\par 4) \tab After you have installed the Pnpisa.inf file, shut down your computer.
+\par 
+\par 5) \tab Install NI-DAQ if you have not already done so, and shut down your computer.
+\par 
+\par 6) \tab Install your ISA Plug and Play DAQ device. 
+\par 
+\par 7) \tab Turn on your computer.  When Windows NT 4.0 detects your ISA Plug and Play DAQ device, it will specify the necessary driver files. Because this will result in a configuration change, restart your computer.
+\par 
+\par 8) \tab After you have restarted your computer, run the NI-DAQ Configuration Utility to configure your device.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 In Windows NT, only one DAQCard can be used at a time
+\par }{\b\f6\cgrid0 
+\par }{\f6\cgrid0 Because NT only allows the st
+orage of one set of resources in the registry for PCMCIA devices, only one DAQCard can be used at a time. If you wish to use a second card, you must delete the first DAQCard in the NI-DAQ configuration utility and eject the card. Then configure your secon
+d DAQCard using the normal configuration procedure for DAQCards in NT.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 In Windows NT, DAQCards Do Not Respond to Certain Base Addresses
+\par }{\b\f6\cgrid0 
+\par }{\f6\cgrid0 Because of an existing problem in Windows NT, DAQCards will fail the base address test and will not work correctly whe
+n configured for certain base addresses.  Most DAQCards cannot be configured for base address 0x100.  The DAQCard-AI-16E-4 and DAQCard-AI-16XE-50 will not work at base address 0x200.  If you encounter this problem, set the base address to a different free
+ base address.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 Plug and Play DAQ Devices Under Windows 95
+\par 
+\par }{\f6\cgrid0 In some cases, Windows 95 might classify a National Instruments Plug and Play DAQ device (PCI, PC Card, ISA PnP) as a generic card and install it in the Device Manager under }{\b\f6\cgrid0 Other Devices}{\f6\cgrid0 
+.  The device will then not be recognized by NI-DAQ as a valid DAQ device.  This might occur if the card has been installed in the computer prior to installing NI-DAQ 6.1.
+\par 
+\par The following steps will correct the problem:
+\par 
+\par 1)\tab Install NI-DAQ 6.1 if you have not already done so.
+\par 
+\par 2)\tab Open the Windows 95 Device Manager.  (From the }{\b\f6\cgrid0 Start }{\f6\cgrid0 menu, choose }{\b\f6\cgrid0 Settings }{\f6\cgrid0 and then }{\b\f6\cgrid0 Control Panel}{\f6\cgrid0 .  From the }{\b\f6\cgrid0 Control Panel}{\f6\cgrid0 
+, double-click on }{\b\f6\cgrid0 System}{\f6\cgrid0 .  In the }{\b\f6\cgrid0 System Properties }{\f6\cgrid0 dialog box, choose the }{\b\f6\cgrid0 Device Manager }{\f6\cgrid0 tab.)
+\par 
+\par 3)\tab Under }{\b\f6\cgrid0 Other Devices}{\f6\cgrid0 , remove the entries that correspond to your type of Plug and Play DAQ device.
+\par 
+\par 4)\tab Restart your system.  Windows 95 will re-identify all of your }{\b\f6\cgrid0 Data Acquisition }{\f6\cgrid0 devices.
+\par 
+\par The devices will now appear in the Windows 95 Device Manager under }{\b\f6\cgrid0 Data Acquisition }{\f6\cgrid0 Devices.
+\par 
+\par As mentioned in step 3, there might be more than one PCI card, PC Card or ISA PnP card classified under }{\b\f6\cgrid0 Other Devices }{\f6\cgrid0 
+in the Windows 95 device manager.  If you are not sure which generic entry corresponds with your DAQ device (or devices), you may wish to remove all the entries under }{\b\f6\cgrid0 Other Devices}{\f6\cgrid0 
+, restart, and let Windows 95 identify the devices again.
+\par 
+\par 
+\par 
+\par }{\b\f2\fs28\cgrid0 *** Specific Hardware Devices}{\b\f6\cgrid0 
+\par 
+\par }{\b\f6\ul\cf1\cgrid0 You Must Reprogram Your SCXI-2000 and SCXI-2400 to work with NI-DAQ 6.1
+\par 
+\par }{\f6\cf1\cgrid0 In order to use your remote SCX
+I chassis (either the SCXI-2000 chassis or the SCXI-2400 module) with NI-DAQ 6.1.0, you must reprogram it with the rscxi.dmg file shipped with NI-DAQ 6.1.0.  To reprogram your chassis or module, select the chassis or module in the NI-DAQ Configuration Uti
+lity and click on the "Configure" button.  Then click on the "Reprogram" button.  It will ask you for the "Image File Name".  The file is located in the nidaq subdirectory in your windows directory and is named rscxi.dmg.
+\par 
+\par If you do not reprogram the chassis, the chassis may appear to work but will eventually behave erratically and possibly hang your system.
+\par }{\b\f6\ul\cgrid0 
+\par 
+\par Devices Not Supported by NI-DAQ 6.1
+\par }{\b\f6\cgrid0 
+\par }{\f6\cgrid0 Beginning with version 5.0, the following devices are no longer supported by NI-DAQ:
+\par \'b7\tab AT-A2150
+\par \'b7\tab AT-DSP-2200
+\par \'b7\tab EISA-A2000
+\par }{\b\i\f6\cgrid0 To use any of these devices, you must use NI-DAQ version 4.9.0 or earlier.
+\par }{\f6\cgrid0 
+\par 
+\par }{\b\f6\ul\cf1\cgrid0 6533/DIO-32HS Devices}{\f6\ul\cf1\cgrid0 
+\par 
+\par }{\f6\cf1\cgrid0 The REQ polarity is now programmable for pattern generation mode. In LabVIEW, call Digital Mode Config to select the desired polarity setting. In
+ C API, call DIG_Grp_Mode followed by DIG_Block_PG_Config. The order of calling sequence is important in this instance. The REQ polarity is active high by default.
+\par 
+\par For 32-bit group I/O, the PXI/PCI devices require that the buffer must be 4-byte aligned. Unaligned buffers will result in an error and no transfer.
+\par 
+\par The state of data lines will remain unchanged even after the block transfer has terminated and the data lines are released from the group assignment. The direction of the data lines are left unchanged as well.  }{\f6\cgrid0 
+\par 
+\par If you are using DMA to repeatedly transfer very large amounts of data with a PCI-DIO-32HS and you are reusing the same buffer each time. You can perform these operations faster if you call Set_DAQ_Device_Info with infoType set to ND_DIGITA
+L_RESTART and the infoValue set to ND_ON. This will only be a significant difference if you are using very large buffers. The Set_Device_Info function description does not document this functionality. }{\f6\cf1\cgrid0 
+This will not work from a LabVIEW application. That is, using Call Library Node to call the Set_DAQ_Device_Info function from a LabVIEW app will not have the desired effect.
+\par 
+\par }{\f6\cgrid0 
+\par }{\b\f6\ul\cf1\cgrid0 SCC Devices
+\par }{\f6\cf1\cgrid0 
+\par NI-DAQ 6.1 has improved support for SCC devices (SC-2345 and CA-2345 carriers and SCC modules). With the NI-DAQ configurat
+ion utility, you can configure the carrier and modules as accessories of your E-Series device. NI-DAQ 6.1 will account for the gain and attenuation of the SCC modules when returning scaled data. Readings obtained from channels connected to SCC-CI20 module
+s will return scaled readings in milliamps while other modules will return scaled readings in volts. Note that you must configure your E-Series device in NRSE (non-referenced single ended) mode to obtain proper readings from SCC modules.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 PCI DMA Support with PCI-MIO-16XE-50 and PCI-1200
+\par }{\b\f6\cgrid0 
+\par }{\f6\cgrid0 The PCI-MIO-16XE-50 board will support DMA transfers in NI-DAQ 6.1 if the board is revision E or later.  Earlier revisions of the board will use interrupts or polling only.
+\par 
+\par The PCI-1200 board will support DMA transfers in NI-DAQ 6.1 if the board is revision E or later.  Earlier revisions of the board will use interrupts or polling only.
+\par 
+\par }{\b\f6\cgrid0 
+\par }{\b\f6\ul\cgrid0 SCXI-1200, DAQPad-1200, DAQPad-MIO-16XE-50
+\par }{\b\f6\cgrid0 
+\par }{\f6\cgrid0 If you are using an SCXI-1200 that is directly connected to your computer, a DAQPad-1200, or a DAQPad-MIO-16XE-50, you must apply power to the device before you attempt to configure it or otherwise activate NI-DAQ.
+\par 
+\par Failing to apply power to these devices before starting NI-DAQ will induce communication failures which may or may not be obvious based on the status values which will be returned by any NI-DAQ functions you might use.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 Recommended Sequence for Configuring the SCXI-1200 in a Remote SCXI Chassis
+\par }{\b\f6\cgrid0 
+\par }{\f6\cgrid0 Follow these steps to ensure a proper configuration:
+\par 
+\par 1) (Windows 95) Use }{\b\f6\cgrid0 Add New Hardware }{\f6\cgrid0 in the Control Panel to add the SCXI-1200 device.
+\par 
+\par 2) Launch the NI-DAQ Configuration Utility.
+\par 
+\par 3) (Windows 95) A dialog box will appear asking for a device number for the newly added SCXI-1200.
+\par 
+\par 4) (Windows NT) Select the }{\b\f6\cgrid0 Add}{\f6\cgrid0  button and select the SCXI-1200 for the parallel port sub-menu.  The configuration screen will pop up.
+\par 
+\par 5) In the }{\b\f6\cgrid0 System }{\f6\cgrid0 tab, select the }{\b\f6\cgrid0 Parallel Port }{\f6\cgrid0 resource, and then select }{\b\f6\cgrid0 Modify}{\f6\cgrid0 .
+\par 
+\par 6) For the }{\b\f6\cgrid0 Port }{\f6\cgrid0 selection, select }{\b\f6\cgrid0 Remote }{\f6\cgrid0 and click }{\b\f6\cgrid0 OK}{\f6\cgrid0 .
+\par 
+\par 7) In the }{\b\f6\cgrid0 Configure Device }{\f6\cgrid0 menu, select }{\b\f6\cgrid0 OK}{\f6\cgrid0 .  The Utility will inform you that the device did not pass the test.  This is expected because we have not placed it in a chassis yet.  Click on }{
+\b\f6\cgrid0 OK }{\f6\cgrid0 for the dialog to proceed to the main panel.
+\par 
+\par 8) Select the }{\b\f6\cgrid0 SCXI Devices }{\f6\cgrid0 tab, select }{\b\f6\cgrid0 Add }{\f6\cgrid0 to add a chassis.  Select the proper type and ensure the chassis parameters are correct.
+\par 
+\par 9) If your configuration includes an SCXI-2400, add the 2400 module now by clicking }{\b\f6\cgrid0 Add }{\f6\cgrid0 with the proper module slot highlighted.  Select the SCXI-2400 and ensure the module parameters are correct.  Select }{\b\f6\cgrid0 OK}{
+\f6\cgrid0 .
+\par 
+\par 10) Add the SCXI-1200 and any other module(s) to the chassis.
+\par 
+\par 11) Save the configuration.
+\par 
+\par 
+\par 
+\par }{\b\f2\fs28\cgrid0 *** USB Support Requirements and Limitations
+\par }{\f6\cgrid0 
+\par }{\b\f6\ul\cgrid0 Operating System Support for USB}{\f6\cgrid0 
+\par 
+\par Software support for USB is provided only in recent versions of Windows 95. To determine whether your computer will work with National Instruments USB DAQ products, run UsbDetect.EXE. If you have NI-DAQ on CD-ROM, you can find this program in the USB 
+folder on the NI-DAQ CD-ROM. If you have NI-DAQ on floppy disks, you can find this program in the USB folder on the first NI-DAQ floppy disk.
+\par 
+\par When it is run, UsbDetect.EXE will display a message box indicating whether your computer is ready to work with National Instruments USB DAQ devices. UsbDetect.EXE may detect the following problems:
+\par 
+\par * The operating system version is incorrect. Only recent versions of Windows 95 support USB. The updated version of Windows 95 is available only with new computers.
+\par 
+\par * Open standard USB hardware and proprietary USB drivers are not supported. Some computers have USB hardware that is not supported by Windows 95. Other computers use proprietary USB software that will not work with National Instruments USB DAQ devices.
+
+\par 
+\par * The
+ Microsoft Windows 95 USB supplement is not installed or is not properly installed.  Some computers ship with the correct version of Windows 95, but by default do not have the software support for USB installed. Contact your computer manufacturer regardin
+g the installation of the USB supplement.
+\par 
+\par * USB support is disabled on this computer. Contact your computer manufacturer about enabling USB support in the computer's BIOS.
+\par 
+\par Microsoft Windows 98 and Windows NT 5.0 will include complete support for USB. National Instruments will release an updated version of NI-DAQ to work with Windows 98 and Windows NT 5.0.
+\par 
+\par }{\b\f6\ul\cgrid0 
+\par National Instruments Software Support for USB
+\par }{\f6\cgrid0 
+\par * NI-DAQ version 6.1 or later is required to use USB DAQ devices.
+\par * LabVIEW version 4.0 or later is required to work with USB. 
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 Potential Problems
+\par }{\f6\cgrid0 
+\par Do not power on or off your USB device while an application which uses NI-DAQ is loaded. This includes the NI-DAQ Configuration Utility. Doing so could result in a system hang.
+\par 
+\par If the computer is extremely busy while USB products are in use, your system may hang or the operation in progress may be halted. Try to minimize other activities on your computer while using USB products. Examples include loading large applications 
+or switching among a large number of applications while USB products are acquiring data.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 Configuration and Power Management
+\par }{\f6\cgrid0 
+\par USB devices support plug-and-play configuration and hot swapping. Windows 95 also provides some operating system support for powe
+r management. Although these features generally facilitate device configuration, please follow these guidelines to avoid configuration problems. 
+\par 
+\par On some computers, power management can interfere with active DAQ applications that are using USB devices. On some systems it can even cause a crash in NI-DAQ 6.1. This is because }{\f6\cf1\cgrid0 OSR2.1 doesn't provide proper power management. }{
+\f6\cgrid0 If your DAQ application needs to run while the computer is unattended, disabling power management in the operating system is recommended.
+\par 
+\par To disable power management in the Windows 95, do the following:
+\par 
+\par 1. Open the Control Panel (Choose Start >> Settings >> Control Panel).
+\par 
+\par 2. Launch the Power applet.
+\par 
+\par 3. If there is a Power tab in the Power Properties window, choose it, and make sure the option labeled "Allow Windows to manage power on this computer" is disabled. If there is no power tab, power management is already disabled on your computer.
+\par 
+\par 4. Click OK, then close the Control Panel.
+\par 
+\par 5. }{\f6\cf1\cgrid0 Some systems have power management built into the BIOS. You should disable power management in the BIOS setup for your system. Refer to the documentation which came with your sytem to find out how to modify your BIOS setup.
+\par 
+\par 6. You should disable your screen saver also. Right click on the background of your desktop to get to the screen saver options.}{\f6\cgrid0 
+\par 
+\par The USB device must be turned on before launching the NI-DAQ configuration utility or a DAQ application. If the device is turned off and back on while NI-DAQ 
+is loaded, the device must be reset in software before it can be used. This can be accomplished by calling Init_DA_Brds (in the NI-DAQ API) or the Device Reset.vi (in LabVIEW). 
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 Performance}{\f6\cgrid0 
+\par 
+\par USB performance is highly dependent on system-specific factors 
+such as CPU speed, memory architecture, and system chipset characteristics. USB operations are software-intensive, so running other applications during data acquisition operations may affect performance. Higher-speed USB operations may also affect the per
+formance of other applications.
+\par 
+\par All USB devices share the same bandwidth. Using multiple USB devices simultaneously may affect the performance of DAQ applications. Also, since the PC's USB host controller resides on the PCI bus, using other bandwidth-inten
+sive PCI devices may affect USB performance. Because data is transferred across the USB bus in packets, the timing of operations involving the transfer of small or precise amounts of data is less deterministic than with plug-in DAQ devices. For example, t
+he timing of messaging and interrupt-intensive operations may vary more with USB devices. 
+\par 
+\par }{\b\f6\ul\cgrid0 Set_DAQ_Device_Info}{\f6\cgrid0 
+\par 
+\par }\pard \sl240\slmult0\nowidctlpar\widctlpar\adjustright {\f6\cgrid0 \tab 
+ND_SUSPEND_POWER_STATE sets the default behavior of USB devices such as the DAQPad-4350 during suspend mode.  The appropriate infoValues to use are ND_ACTIVE and ND_INACTIVE, not ND_ON or ND_
+OFF.   ND_ACTIVE will make the default behavior of a USB device to remain powered but static when the host computer enters a low power mode known as 'suspend'.  ND_INACTIVE will set the default behavior to turn off power when the host computer enters susp
+end mode.
+\par }\pard \nowidctlpar\widctlpar\adjustright {
+\par }\pard \nowidctlpar\adjustright {\f6\cgrid0 
+\par 
+\par }{\b\f2\fs28\cgrid0 *** OPC Server for NI-DAQ
+\par }{\f6\cgrid0 
+\par }{\b\f6\ul\cgrid0 Configuring the OPC Server
+\par 
+\par }{\f6\cgrid0 Use the following procedure to configure the OPC Server:
+\par 
+\par 1. Run the NI-DAQ Configuration Utility to configure your data acquisition hardware.
+\par 
+\par 2. If the DAQ-OPC Server will be performing analog input operations, set the Recalibration Period on the OPC page for your hardware. Refer to Recalibration later in this section for more information.
+\par 
+\par 3. Launch the DAQ C
+hannel Wizard to configure named channels. (See the NI-DAQ on-line documentation for more details on running the DAQ Channel Wizard.) These channels correspond to hardware resources on your DAQ device (analog input, analog output, and digital) and serve a
+s the correspondence between DAQ resources and OPC items.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 Recalibration}{\f6\cgrid0 
+\par 
+\par Accuracy and problems introduced by drift are important consideration for any type of continuous acquisiti
+on. To address these concerns, the DAQ-OPC server can perform a recalibration at specific, user-defined intervals to ensure your hardware is returning good data. You can take advantage of recalibration if your DAQ hardware has built-in channels for ground
+ 
+calibration or cold-junction compensation. These channels are resampled every recalibration period. Select this recalibration period by entering a number (in seconds) from the OPC tab of the NI-DAQ Configuration Utility. If you do not select a recalibrati
+on period, the default value (no recalibration) is selected.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 Data collection
+\par }{\f6\cgrid0 
+\par OPC defines a data collection process in which data is stored in a temporary cache before it is read by the end-user of the OPC data. Occasionally, you may get old data (i.e. a 
+data value that was read previously). For example, you might receive old data if a recalibration is in effect when you attempt to perform an OPC read operation. You can recognize this condition by comparing your current timestamp with a previous timestamp
+. If they have identical values, the data is old and you must perform an additional I/O operation to get the current value for that item.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 Timing}{\f6\cgrid0 
+\par 
+\par The DAQ-OPC Server uses hardware timing for analog input operations. Hardware timing provides the best possib
+le precision for timestamps. Onboard clocks ensure that there are no lags due to operating system overhead or CPU speed issues. The timing of digital and analog output operations, on the other hand, is calculated in software, so these timestamps are not a
+s precise.
+\par 
+\par 
+\par 
+\par }{\b\f6\fs28\cgrid0 *** Remote Device Access (RDA)
+\par }{\f6\cgrid0 
+\par }{\b\f6\ul\cgrid0 Explanation}{\f6\cgrid0 
+\par 
+\par With the NI-DAQ Remote Device Access (RDA) feature you can run programs written in LabVIEW or in the CVI Easy IO library that use National Instruments data acquisition devices plugged into other computers on your network (intranet or internet).
+\par 
+\par The online help file contains a more complete description of the feature, its associated terminology and the steps required to connect an RDA client with an RDA server.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 Limitations
+\par 
+\par }{\f6\cgrid0 RDA works with any progr
+ams written in LabVIEW or the CVI Easy IO layer. The standard NI-DAQ C API is not supported.  In addition, there are four VIs in LabVIEW that will return -10403 (no support error) if used with RDA. They are DAQ Occurrence Config, Get SCXI Info, Set SCXI I
+nfo and SCXI Cal Constants. All CVI Easy IO layer functions are supported.
+\par 
+\par If the computer you wish to use as an RDA server is on your intranet and is not listed in the network neighborhood on the computer you wish to use as an RDA client you may have trou
+ble connecting to that computer. Try typing the full path name into the Remote name/IP address box (computername.natinst.com for example). If this fails and yet the Find Computer applet can still locate and connect to your potential RDA server, contact yo
+ur network administrator.
+\par 
+\par NI-DAQ (on an RDA client) will attempt to connect to an RDA server the first time you try to u
+se the remote device on that server. If your RDA server computer is not on your network or the computer itself is not turned on, this connection attempt will take about one minute to fail. Note that if your RDA server computer is on the network but the RD
+A server program is not running, the connection will fail very quickly, typically within a few seconds.
+\par 
+\par 
+\par }{\b\f2\fs28\cgrid0 *** Miscellaneous
+\par }{\b\f6\cgrid0 
+\par }{\b\f6\ul\cgrid0 Uninstalling NI-DAQ}{\f6\ul\cgrid0 
+\par }{\f6\cgrid0 
+\par NI-DAQ provides you with the option to easily uninstall all the files and  system changes that were made during the installation process. 
+\par 
+\par Open the }{\b\f6\cgrid0 Control Panels}{\f6\cgrid0  from the }{\b\f6\cgrid0 Start}{\f6\cgrid0  Menu and choose }{\b\f6\cgrid0 Add/Remove Programs}{\f6\cgrid0 . Select }{\b\f6\cgrid0 NI-DAQ 6.1}{\f6\cgrid0  in the list provided and click on the "}{
+\b\f6\cgrid0 Add/Remove}{\f6\cgrid0 " button.
+\par 
+\par 
+\par }{\b\f6\ul\cgrid0 NI-DAQ 6.1 Examples
+\par }{\b\f6\cgrid0 
+\par }{\f6\cgrid0 The NI-DAQ installer has a suite of concisely written examples
+\par that illustrate how to use NI-DAQ functions to perform a single task
+\par For more information about each example, how to compile examples,
+\par and details on the NI-DAQ example utility functions, please refer
+\par to the NI-DAQ Example Online Help file.  To open this file, go to }{\b\f6\cgrid0 Start\'bbNI-DAQ for Windows\'bbNI-DAQ Examples Online Help}{\f6\cgrid0 .
+\par 
+\par These examples are written in the following languages:
+\par \'b7 LabWindows/CVI
+\par \'b7 Visual C++
+\par \'b7 Visual Basic
+\par \'b7 Borland C++
+\par }{\b\f6\ul\cgrid0 
+\par 
+\par PC Card Power Cycling
+\par }{\b\f6\cgrid0 
+\par }{\f6\cgrid0 Please note that PC Card power cycling is not supported in NI-DAQ 6.1.  We expect to resume support for this functionality in a subsequent release of NI-DAQ.
+\par }}

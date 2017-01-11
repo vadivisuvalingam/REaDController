@@ -1,0 +1,40 @@
+:Base nidaqpc.HLP
+1 How to Use This Help File
+2 How to Use This Help File=How_to_Use_This_Help_File>main
+2 Conventions=Conventions>main
+2 Using the NI-DAQ Functions
+3 Status Codes, Device Numbers, and SCXI Chassis IDs=Status_Codes,_Device_Numbers,_and_SCXI_Chassis_IDs>main
+3 Variable Data Types
+4 Variable Data Types=Variable_Data_Types>main
+4 Primary Types=Variable_Data_Types>main
+4 Array=Variable_Data_Types>main
+4 Multiple Types=Variable_Data_Types>main
+3 Programming Language Considerations
+4 Programming Language Considerations=Programming_Language_Considerations>main
+4 Borland Delphi=Borland_Delphi>main
+4 Visual BASIC for Windows=Visual_BASIC_for_Windows>main
+4 NI-DAQ Constants Include File=NI-DAQ_Constants_Include_File>main
+3 NI-DAQ for LabWindows/CVI
+4 NI-DAQ for LabWindows/CVI=NI-DAQ_for_LabWindows/CVI>main
+4 LabWindows/CVI Function Tree for Data Acquisition=LabWindows/CVI_Function_Tree_for_Data_Acquisition>main
+1 NI-DAQ Functions
+2 Listed Alphabetically=NI_DAQ_Functions_Listed_Alphabetically>main
+2 Listed by Function Group=NI_DAQ_Functions_Listed_by_Function_Group>main
+2 Listed by Hardware Product
+3 NI-DAQ Functions=NI_DAQ_Functions_Listed_by_Hardware_Product>main
+3 SCXI Functions=SCXI_Functions_Listed_by_Hardware_Product>main
+1 Status Codes
+2 Status Code List=Status_Codes_List>main
+2 Status Code Summary=Status_Code_Summary>main
+1 Analog Input Channel and Gain Settings and Voltage Calculation
+2 DAQ Device Analog Input Channel Settings=DAQ_Device_Analog_Input_Channel_Settings>main
+2 DAQ Device Internal Analog Input Channels=DAQ_Device_Internal_Analog_Input_Channels>main
+2 DAQ Device Gain Settings=DAQ_Device_Gain_Settings>main
+2 Voltage Calculation=Voltage_Calculation>main
+2 Offset and Gain Adjustment=Offset_and_Gain_Adjustment>main
+1 Important Information
+2 About This File=About_This_File>info
+2 Trademarks and Warranty=Trademarks_Warranty>info
+2 National Instruments Technical Support=National_Instruments_Technical_Support>info
+1 Glossary
+2 Glossary=Glossary>secondar

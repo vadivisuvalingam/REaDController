@@ -1,0 +1,902 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\READ Test.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\READ Test.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 58
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About READ Test"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,20
+    LTEXT           "READ Test Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2002,  Xerox Corporation",IDC_STATIC,40,
+                    25,141,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_READTEST_DIALOG DIALOGEX 0, 0, 416, 233
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "READ Test"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Settings",IDC_SETTINGS,304,18,100,20,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Build Test",IDC_BUILDTEST,304,43,100,20,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Run Test",IDC_RUNTEST,304,68,100,20,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Transfer To JAZ",IDC_JAZSAVE,304,93,100,20,0,
+                    WS_EX_CLIENTEDGE
+    GROUPBOX        "Calibration",IDC_STATIC,299,125,110,63
+    PUSHBUTTON      "Light Calibration",IDC_LIGHTCALIBRATION,304,135,100,20,
+                    0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Probe Calibration",IDC_PROBECALIBRATION,304,160,100,20,
+                    0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Exit",IDC_EXIT,304,197,100,20,0,WS_EX_CLIENTEDGE
+    LISTBOX         IDC_TESTSUMMARY,13,17,272,203,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP,WS_EX_CLIENTEDGE
+    GROUPBOX        "Summary of Current Test",IDC_STATIC,7,7,285,220
+    GROUPBOX        "Test",IDC_STATIC,299,8,110,112
+    GROUPBOX        "Exit",IDC_STATIC,299,187,110,40
+END
+
+IDD_GENERALSUMMARY DIALOGEX 0, 0, 265, 191
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "General Summary"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DATEANDTIME,78,34,180,15,ES_READONLY | NOT WS_BORDER,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_COMMENTS,78,66,180,90,ES_MULTILINE | WS_VSCROLL
+    LTEXT           "Date and Time",IDC_STATIC,7,34,60,15
+    LTEXT           "General Comments",IDC_STATIC,7,66,60,15
+END
+
+IDD_SAMPLEINFORMATION DIALOGEX 0, 0, 292, 229
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sample Information"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_SAMPLENUMBER,88,16,60,15,ES_READONLY | NOT WS_BORDER,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_STARTHOLE,88,38,60,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ENDHOLE,88,60,60,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SAMPLEID,88,82,60,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COMMENTS,88,104,160,75,ES_MULTILINE | WS_VSCROLL
+    PUSHBUTTON      "Load",IDC_LOAD,46,195,50,14
+    PUSHBUTTON      "<<",IDC_BACKWARD,104,195,50,14
+    PUSHBUTTON      ">>",IDC_FORWARD,162,195,50,14
+    LTEXT           "Start Hole",IDC_STATIC,28,38,60,15
+    LTEXT           "End Hole",IDC_STATIC,28,60,60,15
+    LTEXT           "Sample ID",IDC_STATIC,28,82,60,15
+    LTEXT           "Sample",IDC_STATIC,28,16,60,15
+    LTEXT           "Comments",IDC_STATIC,28,104,60,15
+END
+
+IDD_TESTSEQUENCE DIALOGEX 0, 0, 459, 394
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Test Sequence"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_SAMPLE,148,23,40,14,ES_READONLY | NOT WS_BORDER,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_CYCLES,243,23,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S1_GRID,54,70,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S1_PIN,119,70,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S1_EXPOSE,184,70,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S1_ERASE,249,70,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S1_GRID2,54,92,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S1_PIN2,119,92,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S1_EXPOSE2,184,92,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S1_ERASE2,249,92,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S2_GRID,54,114,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S2_PIN,119,114,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S2_EXPOSE,184,114,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S2_ERASE,249,114,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S2_GRID2,54,136,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S2_PIN2,119,136,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S2_EXPOSE2,184,136,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S2_ERASE2,249,136,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S3_GRID,54,158,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S3_PIN,119,158,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S3_EXPOSE,184,158,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S3_ERASE,249,158,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S3_GRID2,54,180,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S3_PIN2,119,180,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S3_EXPOSE2,184,180,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S3_ERASE2,249,180,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S4_GRID,54,202,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S4_PIN,119,202,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S4_EXPOSE,184,202,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S4_ERASE,249,202,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S4_GRID2,54,224,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S4_PIN2,119,224,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S4_EXPOSE2,184,224,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S4_ERASE2,249,224,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S5_GRID,54,246,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S5_PIN,119,246,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S5_EXPOSE,184,246,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S5_ERASE,249,246,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S5_GRID2,54,268,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S5_PIN2,119,268,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S5_EXPOSE2,184,268,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S5_ERASE2,249,268,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S6_GRID,54,290,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S6_PIN,119,290,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S6_EXPOSE,184,290,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S6_ERASE,249,290,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S6_GRID2,54,312,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S6_PIN2,119,312,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S6_EXPOSE2,184,312,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S6_ERASE2,249,312,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add New Sequence",IDC_ADDSEQUENCE,305,33,65,28,
+                    BS_MULTILINE
+    PUSHBUTTON      "Remove Last Sequence",IDC_REMOVESEQUENCE,305,98,65,28,
+                    BS_MULTILINE
+    PUSHBUTTON      "Modify Sequence",IDC_MODIFYSEQUENCE,305,163,65,28,
+                    BS_MULTILINE
+    PUSHBUTTON      "Repeat Sequence",IDC_REPEATSEQUENCE,305,228,65,28,
+                    BS_MULTILINE
+    LISTBOX         IDC_SEQUENCELIST,375,24,68,235,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_SECTIONACYCLES,385,280,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SECTIONBCYCLES,385,306,40,14,ES_AUTOHSCROLL
+    CONTROL         "Station 1",IDC_PIDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,28,346,44,10
+    CONTROL         "Station 2",IDC_PIDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,74,346,44,10
+    CONTROL         "Station 3",IDC_PIDC_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,120,346,44,10
+    CONTROL         "Station 4",IDC_PIDC_CHECK4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,166,346,44,10
+    CONTROL         "Station 5",IDC_PIDC_CHECK5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,212,346,44,10
+    CONTROL         "Station 6",IDC_PIDC_CHECK6,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,258,346,44,10
+    LTEXT           "Cycles for PIDC",IDC_STATIC,313,346,50,8
+    EDITTEXT        IDC_CYCLES_PIDC,374,344,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Reset",IDC_RESETCURRENTSEQUENCE,37,373,50,14
+    PUSHBUTTON      "Load",IDC_TESTSEQUENCELOAD,95,373,50,14
+    PUSHBUTTON      "<<",IDC_TESTSEQUENCEBACKWARD,153,373,50,14
+    PUSHBUTTON      ">>",IDC_TESTSEQUENCEFORWARD,211,373,50,14
+    PUSHBUTTON      "Paste Values",IDC_PASTEVALUES,269,373,50,14
+    PUSHBUTTON      "Copy Values",IDC_COPYVALUES,327,373,50,14
+    PUSHBUTTON      "Set Increments",IDC_SETINCREMENTS,385,373,50,14
+    LTEXT           "Sample",IDC_STATIC,106,23,40,15
+    LTEXT           "Cycles",IDC_STATIC,200,23,40,15
+    LTEXT           "Charging Grid",IDC_STATIC,54,47,60,11
+    LTEXT           "Charging Pin",IDC_STATIC,119,47,60,9
+    LTEXT           "Expose Device",IDC_STATIC,184,47,60,9
+    LTEXT           "Erase Device",IDC_STATIC,249,47,46,9
+    LTEXT           "Station 1 Exp",IDC_STATIC,13,70,36,15
+    LTEXT           "Station 2 Exp",IDC_STATIC,13,114,33,15
+    LTEXT           "Station 3 Exp",IDC_STATIC,13,158,33,15
+    LTEXT           "Station 4 Exp",IDC_STATIC,13,202,33,15
+    LTEXT           "Station 5 Exp",IDC_STATIC,13,246,33,15
+    LTEXT           "Station 6 Exp",IDC_STATIC,13,290,32,15
+    GROUPBOX        "List of Sequences",IDC_STATIC,297,7,155,259
+    GROUPBOX        "PIDC",IDC_STATIC,18,334,402,29
+    LTEXT           "kV",IDC_STATIC,54,58,10,8
+    LTEXT           "kV",IDC_STATIC,119,58,10,8
+    LTEXT           "Ergs/cm^2",IDC_STATIC,184,58,36,8
+    LTEXT           "Ergs/cm^2",IDC_STATIC,249,58,36,8
+    LISTBOX         IDC_GRID1_LIST,94,70,92,36,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | NOT WS_BORDER | 
+                    WS_VSCROLL
+    LISTBOX         IDC_GRID2_LIST,94,114,92,35,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | NOT WS_BORDER | 
+                    WS_VSCROLL
+    LISTBOX         IDC_GRID6_LIST,94,290,92,35,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | NOT WS_BORDER | 
+                    WS_VSCROLL
+    LISTBOX         IDC_GRID5_LIST,94,246,92,35,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | NOT WS_BORDER | 
+                    WS_VSCROLL
+    LISTBOX         IDC_GRID3_LIST,94,158,92,35,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | NOT WS_BORDER | 
+                    WS_VSCROLL
+    LISTBOX         IDC_GRID4_LIST,94,202,92,35,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | NOT WS_BORDER | 
+                    WS_VSCROLL
+    CONTROL         "Grid Pop Up Off",IDC_POPUPCHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,19,22,66,10
+    LTEXT           "Station 6 DD",IDC_STATIC,13,312,32,15
+    LTEXT           "Station 5 DD",IDC_STATIC,13,268,33,15
+    LTEXT           "Station 4 DD",IDC_STATIC,13,224,33,15
+    LTEXT           "Station 3 DD",IDC_STATIC,13,180,33,15
+    LTEXT           "Station 2 DD",IDC_STATIC,13,136,33,15
+    LTEXT           "Station 1 DD",IDC_STATIC,13,92,36,15
+    LTEXT           "Section A Cycles",IDC_STATIC,325,280,54,8
+    LTEXT           "Section B Cycles",IDC_STATIC,325,306,54,8
+END
+
+IDD_DEVICEPOSITIONS DIALOGEX 0, 0, 227, 226
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Device Positions"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_HOLES,106,32,60,15,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_STATION,106,53,60,15,ES_READONLY | NOT WS_BORDER,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_CHARGINGDEVICE,106,74,60,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VDDPPROBE,106,95,60,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EXPOSEDEVICE,106,116,60,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VEXPPROBE,106,137,60,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ERASEDEVICE,106,158,60,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "Load",IDC_DEVICELOAD,28,195,50,14
+    PUSHBUTTON      "<<",IDC_DEVICEBACKWARD,86,195,50,14
+    PUSHBUTTON      ">>",IDC_DEVICEFORWARD,144,195,50,14
+    LTEXT           "Station",IDC_STATIC,37,53,60,15
+    LTEXT           "Charging Device",IDC_STATIC,37,74,60,15
+    LTEXT           "Vddp Probe",IDC_STATIC,37,95,60,15
+    LTEXT           "Expose Device",IDC_STATIC,37,116,60,15
+    LTEXT           "Vexp Probe",IDC_STATIC,37,137,60,15
+    LTEXT           "Erase Device",IDC_STATIC,37,158,60,15
+    LTEXT           "Holes",IDC_STATIC,37,32,60,15
+END
+
+IDD_EXPERIMENTNAME DIALOG DISCARDABLE  0, 0, 398, 127
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Experiment Name"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Experiment Name",IDC_STATIC,7,46,60,15
+    EDITTEXT        IDC_PROJECTNAME,78,46,246,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_BROWSE,332,46,50,14
+    LTEXT           "Experiment Counter",IDC_STATIC,7,72,60,15
+    EDITTEXT        IDC_PROJECTCOUNTER,78,72,72,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+END
+
+IDD_READSCANNERLIGHTCALIBRATION_DIALOG DIALOGEX 0, 0, 317, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "READ Scanner Light Calibration"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        ID_AO_DEVICE,7,17,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ID_AI_DEVICE,125,17,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ID_AO_CHANNEL,7,57,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ID_AI_CHANNEL,125,57,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ID_WAIT,7,117,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ID_SCALE,125,117,60,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&Run Calibration",ID_RUN,250,7,60,20
+    LTEXT           "Light Device Board Number",IDC_STATIC,7,7,88,8
+    LTEXT           "Light Device Setting Time (ms)",IDC_STATIC,7,107,97,8
+    LTEXT           "Ammeter Monitor Channel",IDC_STATIC,125,47,82,8
+    LTEXT           "Ammeter Monitor Board Number",IDC_STATIC,126,7,101,8
+    LTEXT           "Light Device Channel",IDC_STATIC,7,47,69,8
+    LTEXT           "Scaling:",IDC_STATIC,125,107,26,8
+    LTEXT           "The scaling factor should be the number of volts on the output monitor of the picoammeter corresponding to one Erg/s*cm^2 on the detector.",
+                    IDC_STATIC,198,107,112,40
+END
+
+IDD_LIGHTMETERSCALINGCALCULATOR_DIALOG DIALOGEX 0, 0, 298, 314
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "(Steve's) Light Meter Scaling Calculator"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        ID_DCV,123,69,41,14,ES_AUTOHSCROLL
+    EDITTEXT        ID_DA,123,121,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ID_PAO,123,144,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ID_PS,123,172,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ID_SF,120,194,47,19,ES_AUTOHSCROLL | ES_READONLY,
+                    WS_EX_DLGMODALFRAME
+    DEFPUSHBUTTON   "Calculate &Scale Factor",ID_CALC_SF,170,249,97,19,
+                    BS_CENTER | BS_VCENTER | BS_MULTILINE,WS_EX_CLIENTEDGE
+    LTEXT           "Detector Calibration Value (from diode calibration table)",
+                    IDC_STATIC,21,68,90,17
+    LTEXT           "uA / uW",IDC_STATIC,182,72,28,8
+    LTEXT           "Factor",IDC_STATIC,21,52,21,8
+    LTEXT           "Value",IDC_STATIC,132,52,19,8
+    LTEXT           "Units",IDC_STATIC,188,52,17,8
+    LTEXT           "Power Conversion Factor",IDC_STATIC,21,96,60,17
+    LTEXT           "0.1",IDC_STATIC,133,100,11,8
+    LTEXT           "uW / ( Ergs * sec )",IDC_STATIC,182,100,60,8
+    LTEXT           "Detector Area",IDC_STATIC,21,124,45,8
+    LTEXT           "cm^2",IDC_STATIC,182,124,18,8
+    LTEXT           "Picoammeter Analog Output",IDC_STATIC,21,143,48,17
+    LTEXT           "Counts / Volt",IDC_STATIC,182,147,42,8
+    LTEXT           "Picoammeter Setting",IDC_STATIC,21,171,43,17
+    LTEXT           "Counts / uA",IDC_STATIC,182,175,39,8
+    LTEXT           "Detector Calibration Value * Power Conversion Factor * Detector Area * Picoammeter Setting / Picoammeter Analog Output = Scale Factor",
+                    IDC_STATIC,21,20,202,27
+    LTEXT           "Scale Factor",IDC_STATIC,21,199,41,8
+    LTEXT           "Volts / ( Ergs / ( sec * cm^2 ) )",IDC_STATIC,182,199,
+                    96,8
+    LTEXT           "on 2 uA range, 10000 counts / uA       on 20 uA range, 1000 Counts / uA       on 200 uA range, 100 counts / uA       on 2 mA range, 10 counts / uA",
+                    IDC_STATIC,23,254,129,34
+    LTEXT           "10000 Counts / 1V on the Analog Output",IDC_STATIC,21,
+                    239,130,8
+    LTEXT           "The following settings apply to the Keithley 485",
+                    IDC_STATIC,23,223,148,8
+    GROUPBOX        "Scale Factor Calculation",IDC_STATIC,7,7,284,300
+END
+
+IDD_READPROBECALIBRATION_DIALOG DIALOGEX 0, 0, 307, 290
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "READ Probe Calibration"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_S1VDDP_B,70,25,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S1VDDP_M,120,25,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Auto",IDC_AUTO1A,170,25,50,14
+    EDITTEXT        IDC_S1VEXP_B,70,45,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S1VEXP_M,120,45,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Auto",IDC_AUTO1B,170,45,50,14
+    EDITTEXT        IDC_S2VDDP_B,70,70,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S2VDDP_M,120,70,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Auto",IDC_AUTO2A,170,70,50,14
+    EDITTEXT        IDC_S2VEXP_B,70,90,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S2VEXP_M,120,90,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Auto",IDC_AUTO2B,170,90,50,14
+    EDITTEXT        IDC_S3VDDP_B,70,115,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S3VDDP_M,120,115,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Auto",IDC_AUTO3A,170,115,50,14
+    EDITTEXT        IDC_S3VEXP_B,70,135,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S3VEXP_M,120,135,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Auto",IDC_AUTO3B,170,135,50,14
+    EDITTEXT        IDC_S4VDDP_B,70,160,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S4VDDP_M,120,160,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Auto",IDC_AUTO4A,170,160,50,14
+    EDITTEXT        IDC_S4VEXP_B,70,180,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S4VEXP_M,120,180,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Auto",IDC_AUTO4B,170,180,50,14
+    EDITTEXT        IDC_S5VDDP_B,70,205,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S5VDDP_M,120,205,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Auto",IDC_AUTO5A,170,205,50,14
+    EDITTEXT        IDC_S5VEXP_B,70,225,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S5VEXP_M,120,225,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Auto",IDC_AUTO5B,170,225,50,14
+    EDITTEXT        IDC_S6VDDP_B,70,250,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S6VDDP_M,120,250,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Auto",IDC_AUTO6A,170,250,50,14
+    EDITTEXT        IDC_S6VEXP_B,70,270,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S6VEXP_M,120,270,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Auto",IDC_AUTO6B,170,270,50,14
+    LTEXT           "Last Probe Calibrated:",IDC_STATIC,240,60,40,16
+    EDITTEXT        IDC_LASTPROBE,240,80,60,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    LTEXT           "Zero Volt Reading:",IDC_STATIC,240,105,46,16
+    EDITTEXT        IDC_LASTZERO,240,125,60,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    LTEXT           "-900 Volt Reading:",IDC_STATIC,240,150,49,16
+    EDITTEXT        IDC_LASTTHOUSAND,240,170,60,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_TABSTOP
+    DEFPUSHBUTTON   "&Save Calibration",ID_SAVE,240,219,60,20
+    PUSHBUTTON      "E&xit",ID_EXIT,240,264,60,20
+    LTEXT           "Zero Volt Offsets:",IDC_STATIC,54,7,56,8
+    LTEXT           "Slopes:",IDC_STATIC,136,7,24,8
+    LTEXT           "Station 1 Vddp:",IDC_STATIC,7,30,50,8
+    LTEXT           "Station 2 Vddp:",IDC_STATIC,7,75,50,8
+    LTEXT           "Station 3 Vddp:",IDC_STATIC,7,120,50,8
+    LTEXT           "Station 4 Vddp:",IDC_STATIC,7,165,50,8
+    LTEXT           "Station 5 Vddp:",IDC_STATIC,7,210,50,8
+    LTEXT           "Station 6 Vddp:",IDC_STATIC,7,255,50,8
+    LTEXT           "Station 1 Vexp:",IDC_STATIC,7,50,49,8
+    LTEXT           "Station 2 Vexp:",IDC_STATIC,7,95,49,8
+    LTEXT           "Station 3 Vexp:",IDC_STATIC,7,140,49,8
+    LTEXT           "Station 4 Vexp:",IDC_STATIC,7,185,49,8
+    LTEXT           "Station 5 Vexp:",IDC_STATIC,7,230,49,8
+    LTEXT           "Station 6 Vexp:",IDC_STATIC,7,275,49,8
+END
+
+IDD_MOTORSPEED DIALOG DISCARDABLE  0, 0, 290, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Motor Speed"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_MOTORSPEED,81,25,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Convert",IDC_CONVERTTORPM,17,65,50,14
+    EDITTEXT        IDC_MOTORSPEEDRPM,81,65,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "Create Tables",IDC_CREATETABLES,17,119,50,14
+    CONTROL         "Progress1",IDC_PROGRESSOFTABLECREATION,
+                    "msctls_progress32",PBS_SMOOTH | WS_BORDER,81,115,190,21
+    LTEXT           "Motor Speed",IDC_STATIC,21,28,42,8
+    LTEXT           "inches/sec",IDC_STATIC,124,28,36,8
+    LTEXT           "RPM",IDC_STATIC,125,68,17,8
+    GROUPBOX        "Create Lookup Tables",IDC_STATIC,7,101,276,46
+    GROUPBOX        "Convert to RPM",IDC_STATIC,7,52,184,41
+END
+
+IDD_PROGRESS DIALOG DISCARDABLE  0, 0, 187, 127
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Progress"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_TIMELEFT,92,7,65,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    EDITTEXT        IDC_CYCLESLEFT,92,26,65,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    PUSHBUTTON      "Cancel",IDC_CANCELRECORDINGDATA,68,58,50,14
+    GROUPBOX        "Cycle Debug Information",IDC_STATIC,7,75,173,36
+    CONTROL         "Progress1",IDC_PROGRESSOFCYCLES,"msctls_progress32",
+                    WS_BORDER,7,41,173,12
+    LTEXT           "Time Left:",IDC_STATIC,51,7,32,8
+    LTEXT           "Cycles Left:",IDC_STATIC,45,26,38,8
+    LTEXT           "Hole Counter",IDC_STATIC,114,86,43,8
+    LTEXT           "Zero Position Counter",IDC_STATIC,27,86,72,8
+    EDITTEXT        IDC_HOLECOUNTER,114,97,40,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    EDITTEXT        IDC_ZEROPOSITONCOUNTER,27,97,40,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+END
+
+IDD_MODIFIED_LIGHTMETERSCALINGCALCULATOR DIALOGEX 0, 0, 298, 314
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "(Modified) Light Meter Scaling Calculator"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        ID_DETECTOR_CALIBRATION_VALUE,123,69,41,14,
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_VELOCITY_OF_BELT,123,94,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ID_DETECTOR_SLIT_WIDTH,123,119,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ID_PICOAMMETER_ANALOG_OUTPUT,123,144,40,14,
+                    ES_AUTOHSCROLL
+    EDITTEXT        ID_PICOAMMETER_SETTING,123,169,40,14,ES_AUTOHSCROLL
+    EDITTEXT        ID_SCALE_FACTOR,120,194,47,19,ES_AUTOHSCROLL | 
+                    ES_READONLY,WS_EX_DLGMODALFRAME
+    DEFPUSHBUTTON   "Calculate &Scale Factor",ID_CALCULATE_SCALE_FACTOR,170,
+                    249,97,19,BS_CENTER | BS_VCENTER | BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Detector Calibration Value (from diode calibration table)",
+                    -1,21,68,90,17
+    LTEXT           "uA / uW",-1,182,72,28,8
+    LTEXT           "Factor",-1,21,52,21,8
+    LTEXT           "Value",-1,132,52,19,8
+    LTEXT           "Units",-1,188,52,17,8
+    LTEXT           "Velocity of Belt",-1,21,96,60,17
+    LTEXT           "cm / sec",-1,182,100,29,8
+    LTEXT           "Dectector Slit Width",-1,21,124,64,8
+    LTEXT           "cm",-1,182,124,10,8
+    LTEXT           "Picoammeter Analog Output",-1,21,143,48,17
+    LTEXT           "Counts / Volt",-1,182,147,42,8
+    LTEXT           "Picoammeter Setting",-1,21,171,43,17
+    LTEXT           "Counts / uA",-1,182,175,39,8
+    LTEXT           "Detector Calibration Value * Velocity of Belt * Detector Slit Width * Picoammeter Setting / Picoammeter Analog Output * (1/10) (Erg/ (sec * uW)) = Scale Factor",
+                    -1,21,20,251,27
+    LTEXT           "Scale Factor",-1,21,199,41,8
+    LTEXT           "Volts / ( Ergs /  cm^2 ))",-1,182,199,74,8
+    LTEXT           "on 2 uA range, 10000 counts / uA       on 20 uA range, 1000 Counts / uA       on 200 uA range, 100 counts / uA       on 2 mA range, 10 counts / uA",
+                    -1,23,254,129,34
+    LTEXT           "10000 Counts / 1V on the Analog Output",-1,21,239,130,8
+    LTEXT           "The following settings apply to the Keithley 485",-1,23,
+                    223,148,8
+    GROUPBOX        "Scale Factor Calculation",-1,7,7,284,300
+END
+
+IDD_JAZPATH DIALOG DISCARDABLE  0, 0, 186, 101
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "JAZ Path"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,35,80,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,97,80,50,14
+    EDITTEXT        IDC_JAZDIRECTORY,73,34,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_JAZPROJECTNAME,73,54,75,14,ES_AUTOHSCROLL
+    LTEXT           "JAZ Directory",IDC_STATIC,24,37,44,8
+    LTEXT           "Project Name",IDC_STATIC,24,57,44,8
+    LTEXT           "If the following information is true please press OK, otherwise please correct and then press OK.",
+                    IDC_STATIC,7,7,172,22
+END
+
+IDD_CHARGEINCREMENT DIALOG DISCARDABLE  0, 0, 260, 151
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Increment Charge Devices"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,141,129,50,14
+    PUSHBUTTON      "Cancel",IDC_CANCELINCREMENTENTER,203,129,50,14
+    CONTROL         "Grid 1 increment down",IDC_CHARGING_GRIDDOWN1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,8,87,10
+    CONTROL         "Grid 1 increment up",IDC_CHARGING_GRIDUP1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,112,8,77,10
+    CONTROL         "Grid 2 increment down",IDC_CHARGING_GRIDDOWN2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,25,87,10
+    CONTROL         "Grid 2 increment up",IDC_CHARGING_GRIDUP2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,112,25,77,10
+    CONTROL         "Grid 3 increment down",IDC_CHARGING_GRIDDOWN3,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,42,87,10
+    CONTROL         "Grid 3 increment up",IDC_CHARGING_GRIDUP3,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,112,42,77,10
+    CONTROL         "Grid 4 increment down",IDC_CHARGING_GRIDDOWN4,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,59,87,10
+    CONTROL         "Grid 4 increment up",IDC_CHARGING_GRIDUP4,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,112,59,77,10
+    CONTROL         "Grid 5 increment down",IDC_CHARGING_GRIDDOWN5,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,76,87,10
+    CONTROL         "Grid 5 increment up",IDC_CHARGING_GRIDUP5,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,112,76,77,10
+    CONTROL         "Grid 6 increment down",IDC_CHARGING_GRIDDOWN6,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,93,87,10
+    CONTROL         "Grid 6 increment up",IDC_CHARGING_GRIDUP6,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,112,93,77,10
+    LTEXT           "Number of Levels",IDC_STATIC,9,111,56,8
+    EDITTEXT        IDC_TOTALNUMBER,75,108,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOWERLIMIT,206,29,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_UPPERLIMIT,206,68,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CYCLESBEFOREINCREMENT,206,108,40,14,ES_AUTOHSCROLL
+    LTEXT           "Cycles For Each Level",IDC_STATIC,126,111,72,8
+    LTEXT           "Lower Limit (kV)",IDC_STATIC,202,17,51,8
+    LTEXT           "Upper Limit (kV)",IDC_STATIC,202,56,51,8
+END
+
+IDD_MISCSETTINGS DIALOG DISCARDABLE  0, 0, 286, 234
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Miscellaneous"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Buffered Mode",IDC_BUFFEREDMODE,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,12,27,63,10
+    CONTROL         "Non Buffered Mode",IDC_NONBUFFEREDMODE,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,77,27,78,10
+    CONTROL         "Non Buffered Dynamic Mode",IDC_NONBUFFEREDDYNAMICMODE,
+                    "Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,157,27,
+                    107,10
+    EDITTEXT        IDC_CHARGEWINDOW1,51,91,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CHARGEPINWINDOW1,109,91,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EXPOSEWINDOW1,167,91,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ERASEWINDOW1,225,91,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CHARGEWINDOW2,51,112,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CHARGEPINWINDOW2,109,112,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EXPOSEWINDOW2,167,112,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ERASEWINDOW2,225,112,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CHARGEWINDOW3,51,133,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CHARGEPINWINDOW3,109,133,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EXPOSEWINDOW3,167,133,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ERASEWINDOW3,225,133,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CHARGEWINDOW4,51,154,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CHARGEPINWINDOW4,109,153,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EXPOSEWINDOW4,167,154,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ERASEWINDOW4,225,154,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CHARGEWINDOW5,51,175,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CHARGEPINWINDOW5,109,174,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EXPOSEWINDOW5,167,175,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ERASEWINDOW5,225,175,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CHARGEWINDOW6,51,196,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CHARGEPINWINDOW6,109,196,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EXPOSEWINDOW6,167,196,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ERASEWINDOW6,225,196,40,14,ES_AUTOHSCROLL
+    LTEXT           "Grid Window",IDC_STATIC,51,70,42,8
+    LTEXT           "Expose Window",IDC_STATIC,167,70,52,8
+    LTEXT           "Erase Window",IDC_STATIC,225,70,47,8
+    LTEXT           "Station 1",IDC_STATIC,13,94,29,8
+    LTEXT           "Station 2",IDC_STATIC,13,115,29,8
+    LTEXT           "Station 3",IDC_STATIC,13,136,29,8
+    LTEXT           "Station 4",IDC_STATIC,13,157,29,8
+    LTEXT           "Station 5",IDC_STATIC,13,178,29,8
+    LTEXT           "Station 6",IDC_STATIC,13,199,29,8
+    GROUPBOX        "Device Window Sizes",IDC_STATIC,7,55,272,173
+    GROUPBOX        "Mode of Operation",IDC_STATIC,7,16,272,32
+    LTEXT           "Pin Window",IDC_STATIC,109,70,39,8
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 464, 242
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,407,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,407,24,50,14
+    EDITTEXT        IDC_EDIT1,174,97,40,14,ES_AUTOHSCROLL
+    LTEXT           "Holes",IDC_STATIC,147,98,19,8
+    LTEXT           "Points per Hole",IDC_STATIC,143,131,49,8
+    EDITTEXT        IDC_EDIT2,197,130,40,14,ES_AUTOHSCROLL
+    LTEXT           "Counter 0",IDC_STATIC,227,177,32,8
+    LTEXT           "Counter 1",IDC_STATIC,229,196,32,8
+    EDITTEXT        IDC_EDIT3,263,175,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,263,194,40,14,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "READ Test MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "READ Test\0"
+            VALUE "LegalCopyright", "Copyright (C) 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "READ Test.EXE\0"
+            VALUE "ProductName", "READ Test Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+    END
+
+    IDD_READTEST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 409
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 227
+    END
+
+    IDD_GENERALSUMMARY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 184
+    END
+
+    IDD_SAMPLEINFORMATION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 285
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 222
+    END
+
+    IDD_TESTSEQUENCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 452
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 387
+    END
+
+    IDD_DEVICEPOSITIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_EXPERIMENTNAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 391
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 120
+    END
+
+    IDD_READSCANNERLIGHTCALIBRATION_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_LIGHTMETERSCALINGCALCULATOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 291
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 307
+    END
+
+    IDD_READPROBECALIBRATION_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+    END
+
+    IDD_MOTORSPEED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 283
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 119
+    END
+
+    IDD_MODIFIED_LIGHTMETERSCALINGCALCULATOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 291
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 307
+    END
+
+    IDD_JAZPATH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 94
+    END
+
+    IDD_CHARGEINCREMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_MISCSETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 279
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 227
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 457
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 235
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP2             BITMAP  DISCARDABLE     "illustration2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About READ Test..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\READ Test.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

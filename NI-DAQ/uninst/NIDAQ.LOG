@@ -1,0 +1,1369 @@
+***  Installation Started 10/16/03 1:13  ***
+Title: NI-DAQ 6.1 Installation
+Source: C:\RESUME\61\BASE\INSTALL.EXE
+Version: Following file not copied.
+File Overwrite: C:\WINDOWS\SYSTEM\inetwh32.dll
+Made Dir: C:\WINDOWS\Start Menu\Programs\National Instruments DAQ
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion
+RegDB Val: 6.1
+RegDB Name: Version
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion
+RegDB Val: C:\NI-DAQ
+RegDB Name: NI-DAQ Directory
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion
+RegDB Val: C:\NI-DAQ
+RegDB Name: Path
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion
+RegDB Val: National Instruments DAQ
+RegDB Name: ProgramFolder
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion
+RegDB Val: 
+RegDB Name: SubVersion
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion
+RegDB Val: 83
+RegDB Name: BuildNumber
+RegDB Root: 2
+Made Dir: C:\NI-DAQ
+File Copy: C:\NI-DAQ\readme.doc
+Version: Following file not copied.
+File Overwrite: C:\WINDOWS\SYSTEM\INETWH32.dll
+Version: Following file not copied.
+File Overwrite: C:\WINDOWS\SYSTEM\MFC40.DLL
+Version: Following file not copied.
+File Overwrite: C:\WINDOWS\SYSTEM\MFC42.DLL
+Version: Following file not copied.
+File Overwrite: C:\WINDOWS\SYSTEM\OLEAUT32.DLL
+Version: Following file not copied.
+File Overwrite: C:\WINDOWS\SYSTEM\OLEPRO32.DLL
+File Copy: C:\WINDOWS\SYSTEM\setbrows.exe
+Version: Following file not copied.
+File Overwrite: C:\WINDOWS\SYSTEM\STDOLE2.TLB
+Version: Following file not copied.
+File Overwrite: C:\WINDOWS\SYSTEM\msvcrt.dll
+Made Dir: C:\NI-DAQ\uninst
+File Copy: C:\NI-DAQ\uninst\Unwise.ini
+File Copy: C:\NI-DAQ\uninst\UNWISE.EXE
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion\Uninstall
+RegDB Val: NI-DAQ 6.1
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion\Uninstall
+RegDB Val: C:\NI-DAQ\UNINST\UNWISE.EXE C:\NI-DAQ\UNINST\NIDAQ.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\NI-DAQ
+RegDB Val: NI-DAQ 6.1
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\NI-DAQ
+RegDB Val: C:\NI-DAQ\UNINST\UNWISE.EXE C:\NI-DAQ\UNINST\NIDAQ.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB TREE: SOFTWARE\National Instruments\NI-DAQ
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion\SubComponentOf
+RegDB Val: 1
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion
+RegDB Val: C:\WINDOWS\SYSTEM
+RegDB Name: ConfigPath
+RegDB Root: 2
+RegDB Key: SOFTWARE\Microsoft\Windows\Help
+RegDB Val: C:\NI-DAQ\Docs\nidaqpc.hlp
+RegDB Name: nidaqpc.hlp
+RegDB Root: 2
+RegDB Key: SOFTWARE\Microsoft\Windows\Help
+RegDB Val: C:\NI-DAQ\Docs\nidaqdeu.hlp
+RegDB Name: nidaqdeu.hlp
+RegDB Root: 2
+RegDB Key: SOFTWARE\Microsoft\Windows\Help
+RegDB Val: C:\NI-DAQ\Docs\nidaqfra.hlp
+RegDB Name: nidaqfra.hlp
+RegDB Root: 2
+RegDB Key: SOFTWARE\Microsoft\Windows\Help
+RegDB Val: C:\NI-DAQ\Docs\nidaqjpn.hlp
+RegDB Name: nidaqjpn.hlp
+RegDB Root: 2
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqcfg.hlp
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\NIDAQCFG.cnt
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion\ConfigHelp
+RegDB Val: C:\WINDOWS\SYSTEM\nidaqcfg.hlp
+RegDB Name: eng
+RegDB Root: 2
+RegDB Key: SOFTWARE\Microsoft\Windows\Help
+RegDB Val: C:\WINDOWS\SYSTEM
+RegDB Name: nidaqcfg.hlp
+RegDB Root: 2
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\NIDAQjpn.cnt
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqjpn.hlp
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqjpn.dll
+RegDB Key: SOFTWARE\Microsoft\Windows\Help
+RegDB Val: C:\WINDOWS\SYSTEM\nidaqjpn.hlp
+RegDB Name: nidaqjpn.hlp
+RegDB Root: 2
+RegDB Old: C:\NI-DAQ\Docs\nidaqjpn.hlp
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion\ConfigHelp
+RegDB Val: C:\WINDOWS\SYSTEM\nidaqjpn.hlp
+RegDB Name: jpn
+RegDB Root: 2
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqfra.cnt
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqfra.hlp
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqfra.dll
+RegDB Key: SOFTWARE\Microsoft\Windows\Help
+RegDB Val: C:\WINDOWS\SYSTEM\nidaqfra.hlp
+RegDB Name: nidaqfra.hlp
+RegDB Root: 2
+RegDB Old: C:\NI-DAQ\Docs\nidaqfra.hlp
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion\ConfigHelp
+RegDB Val: C:\WINDOWS\SYSTEM\nidaqfra.hlp
+RegDB Name: fra
+RegDB Root: 2
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqdeu.cnt
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqdeu.hlp
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqdeu.dll
+RegDB Key: SOFTWARE\Microsoft\Windows\Help
+RegDB Val: C:\WINDOWS\SYSTEM
+RegDB Name: nidaqdeu.hlp
+RegDB Root: 2
+RegDB Old: C:\NI-DAQ\Docs\nidaqdeu.hlp
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion\ConfigHelp
+RegDB Val: C:\WINDOWS\SYSTEM\nidaqdeu.hlp
+RegDB Name: deu
+RegDB Root: 2
+Made Dir: C:\NI-DAQ\Docs
+File Copy: C:\NI-DAQ\Docs\Nidaqpc.hlp
+File Copy: C:\NI-DAQ\Docs\Nidaqpc.cnt
+Made Dir: C:\NI-DAQ\RDA
+File Copy: C:\NI-DAQ\RDA\nidqsrvr.exe
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nicl5102.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\nihwdb.psm
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaq32.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nicfq32.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nipxiini.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqcfg.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqcfg.exe
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\NITPan32.exe
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\NIHDLC32.exe
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\NISSM32.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\NIVDAQ32.exe
+Made Dir: C:\WINDOWS\nidaq
+File Copy: C:\WINDOWS\nidaq\rscxi.dmg
+File Copy: C:\WINDOWS\SYSTEM\cwui.ocx
+RegDB Key: SOFTWARE\National Instruments\Interfaces
+RegDB Val: C:\Program Files\National Instruments\Interfaces
+RegDB Name: InterfacesPath
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\Templates\PXI-DAQ
+RegDB Val: nidaq_xi.dll
+RegDB Name: DLL
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\Templates\PXI-DAQ
+RegDB Val: DAQ_XI_Configure
+RegDB Name: Function
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\Templates\PXI-DAQ
+RegDB Val: 129
+RegDB Name: Icon
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\Templates\PXI-DAQ
+RegDB Val: NI-DAQ Configuration
+RegDB Name: Text
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1760
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1420
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1430
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1440
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1450
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_13E0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_13F0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_12A0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_14A0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1480
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_16E0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1780
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_14D0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_11E0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_11D0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_11C0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1370
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1690
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_16A0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_13C0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1320
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1490
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1360
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1470
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_11B0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\Templates\VXI-DAQ
+RegDB Val: nidaq_xi.dll
+RegDB Name: DLL
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\Templates\VXI-DAQ
+RegDB Val: DAQ_XI_Configure
+RegDB Name: Function
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\Templates\VXI-DAQ
+RegDB Val: 129
+RegDB Name: Icon
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\Templates\VXI-DAQ
+RegDB Val: NI-DAQ Configuration
+RegDB Name: Text
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\VXI\MANF_FF6&MODEL_F10
+RegDB Val: VXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\VXI\MANF_FF6&MODEL_F20
+RegDB Val: VXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\VXI\MANF_FF6&MODEL_F30
+RegDB Val: VXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\Interfaces\VXI\MANF_FF6&MODEL_F40
+RegDB Val: VXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+Made Dir: C:\Program Files\National Instruments
+Made Dir: C:\Program Files\National Instruments\Interfaces
+File Copy: C:\Program Files\National Instruments\Interfaces\nidaq_xi.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\inf\nidaq.inf
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\inf\nidaq1.inf
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqusb.sys
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaq32k.drv
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\Nidaqui.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\Nithk16.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nithk32.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\Nissm32k.drv
+RegDB TREE: System\CurrentControlSet\Services\VxD\NISSM32K
+RegDB Root: 2
+Execute Path: rundll nidaqui.dll,ClassUninstall
+RegDB Key: System\CurrentControlSet\Services\Class\DAQDevice
+RegDB Val: Data Acquisition Devices
+RegDB Root: 2
+RegDB Key: System\CurrentControlSet\Services\Class\DAQDevice
+RegDB Val: 67 00
+RegDB Name: Icon
+RegDB Root: 2
+RegDB Key: System\CurrentControlSet\Services\Class\DAQDevice
+RegDB Val: nidaqui.dll
+RegDB Name: Installer
+RegDB Root: 2
+RegDB Key: System\CurrentControlSet\Services\VxD\NISSM32K
+RegDB Val: 00
+RegDB Name: Start
+RegDB Root: 2
+RegDB Key: System\CurrentControlSet\Services\VxD\NISSM32K
+RegDB Val: nissm32k.drv
+RegDB Name: StaticVxD
+RegDB Root: 2
+RegDB Old: nissm32k.drv
+Shell Link: C:\WINDOWS\Start Menu\Programs\National Instruments DAQ\NI-DAQ Configuration Utility.lnk
+Shell Link: C:\WINDOWS\Start Menu\Programs\National Instruments DAQ\Remote Device Access Server.lnk
+Shell Link: C:\WINDOWS\Start Menu\Programs\National Instruments DAQ\NI-DAQ Test Panels.lnk
+Shell Link: C:\WINDOWS\Start Menu\Programs\National Instruments DAQ\NI-DAQ Help.lnk
+Shell Link: C:\WINDOWS\Start Menu\Programs\National Instruments DAQ\NI-DAQ Readme File.lnk
+Self-Register: C:\WINDOWS\SYSTEM\CWUI.OCX
+***  Installation Started 10/16/03 1:16  ***
+Title: NI-DAQ 6.1 Installation
+Source: C:\RESUME\61\BASE\INSTALL.EXE
+Version: Following file not copied.
+File Overwrite: C:\WINDOWS\SYSTEM\inetwh32.dll
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion
+RegDB Val: 6.1
+RegDB Name: Version
+RegDB Root: 2
+RegDB Old: 6.1
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion
+RegDB Val: C:\NI-DAQ
+RegDB Name: NI-DAQ Directory
+RegDB Root: 2
+RegDB Old: C:\NI-DAQ
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion
+RegDB Val: C:\NI-DAQ
+RegDB Name: Path
+RegDB Root: 2
+RegDB Old: C:\NI-DAQ
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion
+RegDB Val: National Instruments DAQ
+RegDB Name: ProgramFolder
+RegDB Root: 2
+RegDB Old: National Instruments DAQ
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion
+RegDB Val: 
+RegDB Name: SubVersion
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion
+RegDB Val: 83
+RegDB Name: BuildNumber
+RegDB Type: 4
+RegDB Root: 2
+RegDB Old: 83
+File Overwrite: C:\NI-DAQ\readme.doc
+Version: Following file not copied.
+File Overwrite: C:\WINDOWS\SYSTEM\INETWH32.dll
+Version: Following file not copied.
+File Overwrite: C:\WINDOWS\SYSTEM\MFC40.DLL
+Version: Following file not copied.
+File Overwrite: C:\WINDOWS\SYSTEM\MFC42.DLL
+Version: Following file not copied.
+File Overwrite: C:\WINDOWS\SYSTEM\OLEAUT32.DLL
+Version: Following file not copied.
+File Overwrite: C:\WINDOWS\SYSTEM\OLEPRO32.DLL
+File Overwrite: C:\WINDOWS\SYSTEM\setbrows.exe
+Version: Following file not copied.
+File Overwrite: C:\WINDOWS\SYSTEM\STDOLE2.TLB
+Version: Following file not copied.
+File Overwrite: C:\WINDOWS\SYSTEM\msvcrt.dll
+File Overwrite: C:\NI-DAQ\uninst\Unwise.ini
+File Overwrite: C:\NI-DAQ\uninst\UNWISE.EXE
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion\Uninstall
+RegDB Val: NI-DAQ 6.1
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Old: NI-DAQ 6.1
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion\Uninstall
+RegDB Val: C:\NI-DAQ\UNINST\UNWISE.EXE C:\NI-DAQ\UNINST\NIDAQ.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Old: C:\NI-DAQ\UNINST\UNWISE.EXE C:\NI-DAQ\UNINST\NIDAQ.LOG
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\NI-DAQ
+RegDB Val: NI-DAQ 6.1
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\NI-DAQ
+RegDB Val: C:\NI-DAQ\UNINST\UNWISE.EXE C:\NI-DAQ\UNINST\NIDAQ.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB TREE: SOFTWARE\National Instruments\NI-DAQ
+RegDB Root: 2
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion\SubComponentOf
+RegDB Val: 1
+RegDB Root: 2
+RegDB Old: 1
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion
+RegDB Val: C:\WINDOWS\SYSTEM
+RegDB Name: ConfigPath
+RegDB Root: 2
+RegDB Old: C:\WINDOWS\SYSTEM
+RegDB Key: SOFTWARE\Microsoft\Windows\Help
+RegDB Val: C:\NI-DAQ\Docs\nidaqpc.hlp
+RegDB Name: nidaqpc.hlp
+RegDB Root: 2
+RegDB Old: C:\NI-DAQ\Docs\nidaqpc.hlp
+RegDB Key: SOFTWARE\Microsoft\Windows\Help
+RegDB Val: C:\NI-DAQ\Docs\nidaqdeu.hlp
+RegDB Name: nidaqdeu.hlp
+RegDB Root: 2
+RegDB Old: C:\WINDOWS\SYSTEM
+RegDB Key: SOFTWARE\Microsoft\Windows\Help
+RegDB Val: C:\NI-DAQ\Docs\nidaqfra.hlp
+RegDB Name: nidaqfra.hlp
+RegDB Root: 2
+RegDB Old: C:\WINDOWS\SYSTEM\nidaqfra.hlp
+RegDB Key: SOFTWARE\Microsoft\Windows\Help
+RegDB Val: C:\NI-DAQ\Docs\nidaqjpn.hlp
+RegDB Name: nidaqjpn.hlp
+RegDB Root: 2
+RegDB Old: C:\WINDOWS\SYSTEM\nidaqjpn.hlp
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqcfg.hlp
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\NIDAQCFG.cnt
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion\ConfigHelp
+RegDB Val: C:\WINDOWS\SYSTEM\nidaqcfg.hlp
+RegDB Name: eng
+RegDB Root: 2
+RegDB Old: C:\WINDOWS\SYSTEM\nidaqcfg.hlp
+RegDB Key: SOFTWARE\Microsoft\Windows\Help
+RegDB Val: C:\WINDOWS\SYSTEM
+RegDB Name: nidaqcfg.hlp
+RegDB Root: 2
+RegDB Old: C:\WINDOWS\SYSTEM
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\NIDAQjpn.cnt
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqjpn.hlp
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqjpn.dll
+RegDB Key: SOFTWARE\Microsoft\Windows\Help
+RegDB Val: C:\WINDOWS\SYSTEM\nidaqjpn.hlp
+RegDB Name: nidaqjpn.hlp
+RegDB Root: 2
+RegDB Old: C:\NI-DAQ\Docs\nidaqjpn.hlp
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion\ConfigHelp
+RegDB Val: C:\WINDOWS\SYSTEM\nidaqjpn.hlp
+RegDB Name: jpn
+RegDB Root: 2
+RegDB Old: C:\WINDOWS\SYSTEM\nidaqjpn.hlp
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqfra.cnt
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqfra.hlp
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqfra.dll
+RegDB Key: SOFTWARE\Microsoft\Windows\Help
+RegDB Val: C:\WINDOWS\SYSTEM\nidaqfra.hlp
+RegDB Name: nidaqfra.hlp
+RegDB Root: 2
+RegDB Old: C:\NI-DAQ\Docs\nidaqfra.hlp
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion\ConfigHelp
+RegDB Val: C:\WINDOWS\SYSTEM\nidaqfra.hlp
+RegDB Name: fra
+RegDB Root: 2
+RegDB Old: C:\WINDOWS\SYSTEM\nidaqfra.hlp
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqdeu.cnt
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqdeu.hlp
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqdeu.dll
+RegDB Key: SOFTWARE\Microsoft\Windows\Help
+RegDB Val: C:\WINDOWS\SYSTEM
+RegDB Name: nidaqdeu.hlp
+RegDB Root: 2
+RegDB Old: C:\NI-DAQ\Docs\nidaqdeu.hlp
+RegDB Key: SOFTWARE\National Instruments\NI-DAQ\CurrentVersion\ConfigHelp
+RegDB Val: C:\WINDOWS\SYSTEM\nidaqdeu.hlp
+RegDB Name: deu
+RegDB Root: 2
+RegDB Old: C:\WINDOWS\SYSTEM\nidaqdeu.hlp
+File Overwrite: C:\NI-DAQ\Docs\Nidaqpc.hlp
+File Overwrite: C:\NI-DAQ\Docs\Nidaqpc.cnt
+File Copy: C:\NI-DAQ\RDA\nidqsrvr.exe
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nicl5102.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\nihwdb.psm
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaq32.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nicfq32.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nipxiini.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqcfg.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqcfg.exe
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\NITPan32.exe
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\NIHDLC32.exe
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\NISSM32.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\NIVDAQ32.exe
+File Copy: C:\WINDOWS\nidaq\rscxi.dmg
+File Overwrite: C:\WINDOWS\SYSTEM\cwui.ocx
+RegDB Key: SOFTWARE\National Instruments\Interfaces
+RegDB Val: C:\Program Files\National Instruments\Interfaces
+RegDB Name: InterfacesPath
+RegDB Root: 2
+RegDB Old: C:\Program Files\National Instruments\Interfaces
+RegDB Key: SOFTWARE\National Instruments\Interfaces\Templates\PXI-DAQ
+RegDB Val: nidaq_xi.dll
+RegDB Name: DLL
+RegDB Root: 2
+RegDB Old: nidaq_xi.dll
+RegDB Key: SOFTWARE\National Instruments\Interfaces\Templates\PXI-DAQ
+RegDB Val: DAQ_XI_Configure
+RegDB Name: Function
+RegDB Root: 2
+RegDB Old: DAQ_XI_Configure
+RegDB Key: SOFTWARE\National Instruments\Interfaces\Templates\PXI-DAQ
+RegDB Val: 129
+RegDB Name: Icon
+RegDB Type: 3
+RegDB Root: 2
+RegDB Old: 129
+RegDB Key: SOFTWARE\National Instruments\Interfaces\Templates\PXI-DAQ
+RegDB Val: NI-DAQ Configuration
+RegDB Name: Text
+RegDB Root: 2
+RegDB Old: NI-DAQ Configuration
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1760
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1420
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1430
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1440
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1450
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_13E0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_13F0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_12A0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_14A0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1480
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_16E0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1780
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_14D0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_11E0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_11D0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_11C0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1370
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1690
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_16A0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_13C0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1320
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1490
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1360
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_1470
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\PXI\VEN_1093&DEV_11B0
+RegDB Val: PXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: PXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\Templates\VXI-DAQ
+RegDB Val: nidaq_xi.dll
+RegDB Name: DLL
+RegDB Root: 2
+RegDB Old: nidaq_xi.dll
+RegDB Key: SOFTWARE\National Instruments\Interfaces\Templates\VXI-DAQ
+RegDB Val: DAQ_XI_Configure
+RegDB Name: Function
+RegDB Root: 2
+RegDB Old: DAQ_XI_Configure
+RegDB Key: SOFTWARE\National Instruments\Interfaces\Templates\VXI-DAQ
+RegDB Val: 129
+RegDB Name: Icon
+RegDB Type: 3
+RegDB Root: 2
+RegDB Old: 129
+RegDB Key: SOFTWARE\National Instruments\Interfaces\Templates\VXI-DAQ
+RegDB Val: NI-DAQ Configuration
+RegDB Name: Text
+RegDB Root: 2
+RegDB Old: NI-DAQ Configuration
+RegDB Key: SOFTWARE\National Instruments\Interfaces\VXI\MANF_FF6&MODEL_F10
+RegDB Val: VXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: VXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\VXI\MANF_FF6&MODEL_F20
+RegDB Val: VXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: VXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\VXI\MANF_FF6&MODEL_F30
+RegDB Val: VXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: VXI-DAQ
+RegDB Key: SOFTWARE\National Instruments\Interfaces\VXI\MANF_FF6&MODEL_F40
+RegDB Val: VXI-DAQ
+RegDB Name: Template
+RegDB Root: 2
+RegDB Old: VXI-DAQ
+File Copy: C:\Program Files\National Instruments\Interfaces\nidaq_xi.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\inf\nidaq.inf
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\inf\nidaq1.inf
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaqusb.sys
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nidaq32k.drv
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\Nidaqui.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\Nithk16.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\nithk32.dll
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\Nissm32k.drv
+RegDB TREE: System\CurrentControlSet\Services\VxD\NISSM32K
+RegDB Root: 2
+Execute Path: rundll nidaqui.dll,ClassUninstall
+RegDB Key: System\CurrentControlSet\Services\Class\DAQDevice
+RegDB Val: Data Acquisition Devices
+RegDB Root: 2
+RegDB Old: Data Acquisition Devices
+RegDB Key: System\CurrentControlSet\Services\Class\DAQDevice
+RegDB Val: 67 00
+RegDB Name: Icon
+RegDB Type: 4
+RegDB Root: 2
+RegDB Old: 6700
+RegDB Key: System\CurrentControlSet\Services\Class\DAQDevice
+RegDB Val: nidaqui.dll
+RegDB Name: Installer
+RegDB Root: 2
+RegDB Old: nidaqui.dll
+RegDB Key: System\CurrentControlSet\Services\VxD\NISSM32K
+RegDB Val: 00
+RegDB Name: Start
+RegDB Type: 4
+RegDB Root: 2
+RegDB Old: 00
+RegDB Key: System\CurrentControlSet\Services\VxD\NISSM32K
+RegDB Val: nissm32k.drv
+RegDB Name: StaticVxD
+RegDB Root: 2
+RegDB Old: nissm32k.drv
+File Copy: C:\NI-DAQ\Docs\Nidaqex.hlp
+NON-SYSTEM FILE:
+File Copy: C:\WINDOWS\SYSTEM\Nidex32.dll
+Made Dir: C:\NI-DAQ\include
+File Copy: C:\NI-DAQ\include\nidaq.pas
+File Copy: C:\NI-DAQ\include\regdefs.pas
+File Copy: C:\NI-DAQ\include\nidaqcns.pas
+Made Dir: C:\NI-DAQ\Examples
+Made Dir: C:\NI-DAQ\Examples\Delphi
+File Copy: C:\NI-DAQ\Examples\Delphi\readme.txt
+Made Dir: C:\NI-DAQ\Examples\BorlandC
+Made Dir: C:\NI-DAQ\Examples\BorlandC\AI
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\AIonePoint.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\AIonePoint.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\AIonePointAMUX.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\AIonePointAMUX.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\AIonePointExtConv.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\AIonePointExtConv.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\AIonePointExtConv_Eseries.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\AIonePointExtConv_Eseries.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQdoubleBuf.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQdoubleBuf.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufAnalogTrig.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufAnalogTrig.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufAsync.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufAsync.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufExtConv.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufExtConv.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufExtConv_Eseries.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufExtConv_Eseries.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufExtTrig.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufExtTrig.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufExtTrig_Eseries.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufExtTrig_Eseries.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufStopTrig.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufStopTrig.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufStopTrig_Eseries.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufStopTrig_Eseries.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufSync.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufSync.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufToDisk.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\DAQsingleBufToDisk.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\SCANsingleBufAsync.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\SCANsingleBufAsync.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\SCANsingleBufExtScan.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\SCANsingleBufExtScan.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\SCANsingleBufExtScan_Eseries.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\SCANsingleBufExtScan_Eseries.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\SCANsingleBufMultiRate.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\SCANsingleBufMultiRate.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\SCANsingleBufSync.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\SCANsingleBufSync.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\SCC_A10.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\SCC_A10.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\SCC_CI20.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AI\SCC_CI20.C
+Made Dir: C:\NI-DAQ\Examples\BorlandC\AO
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\AOonePoint.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\AOonePoint.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\AOonePointExtUpdate.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\AOonePointExtUpdate.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\AOonePointExtUpdate_Eseries.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\AOonePointExtUpdate_Eseries.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\WFMdoubleBuf.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\WFMdoubleBuf.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\WFMsingleBufAsync.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\WFMsingleBufAsync.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\WFMsingleBufExtTrig_Eseries.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\WFMsingleBufExtTrig_Eseries.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\WFMsingleBufExtUpdate.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\WFMsingleBufExtUpdate.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\WFMsingleBufExtUpdate_Eseries.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\WFMsingleBufExtUpdate_Eseries.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\WFMsingleBufFromDisk.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\WFMsingleBufFromDisk.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\WFMsingleBufRegenerate.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\WFMsingleBufRegenerate.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\WFMsingleBufSync.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\AO\WFMsingleBufSync.C
+Made Dir: C:\NI-DAQ\Examples\BorlandC\CALIB
+File Copy: C:\NI-DAQ\Examples\BorlandC\CALIB\Calibrate_Eseries.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CALIB\Calibrate_Eseries.C
+Made Dir: C:\NI-DAQ\Examples\BorlandC\CTR
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\8253eventCount.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\8253eventCount.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\8253generateSinglePulse.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\8253generateSinglePulse.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\8253generateSquareWave.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\8253generateSquareWave.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\9513eventCount.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\9513eventCount.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\9513freqMeasure.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\9513freqMeasure.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\9513generateFreqOut.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\9513generateFreqOut.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\9513generateSinglePulse.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\9513generateSinglePulse.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\9513generateSquareWave.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\9513generateSquareWave.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\9513pulseWidthMeasure.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\9513pulseWidthMeasure.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCcountWithHWDirControl.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCcountWithHWDirControl.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCeventCount.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCeventCount.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCgenerateRepeatedTriggeredPulse.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCgenerateRepeatedTriggeredPulse.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCgenerateSinglePulse.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCgenerateSinglePulse.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCgenerateSingleTriggeredPulse.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCgenerateSingleTriggeredPulse.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCgenerateSquareWave.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCgenerateSquareWave.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCsingleBufEventCount.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCsingleBufEventCount.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCsingleBufPeriodMeasure.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCsingleBufPeriodMeasure.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCsingleBufPulseWidthMeasure.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCsingleBufPulseWidthMeasure.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCsingleBufSemiperiodMeasure.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCsingleBufSemiperiodMeasure.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCsinglePeriodMeasure.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCsinglePeriodMeasure.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCsinglePulseWidthMeasure.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCsinglePulseWidthMeasure.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCsingleTriggeredPulseWidthMeasure.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\CTR\STCsingleTriggeredPulseWidthMeasure.C
+Made Dir: C:\NI-DAQ\Examples\BorlandC\DI
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIdoubleBufPatternGen.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIdoubleBufPatternGen.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIoneGroupHandshake.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIoneGroupHandshake.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIoneLine.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIoneLine.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIonePort.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIonePort.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIonePortHandshake.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIonePortHandshake.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIsingleBufExtTrig.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIsingleBufExtTrig.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIsingleBufHandshake.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIsingleBufHandshake.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIsingleBufHandshake8255.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIsingleBufHandshake8255.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIsingleBufPatternGen.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIsingleBufPatternGen.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIsingleBufPatternTrig.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DI\DIsingleBufPatternTrig.C
+Made Dir: C:\NI-DAQ\Examples\BorlandC\DO
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOdoubleBufPatternGen.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOdoubleBufPatternGen.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOoneGroupHandshake.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOoneGroupHandshake.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOoneLine.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOoneLine.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOonePort.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOonePort.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOonePortHandshake.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOonePortHandshake.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOsingleBufExtTrig.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOsingleBufExtTrig.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOsingleBufHandshake.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOsingleBufHandshake.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOsingleBufHandshake8255.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOsingleBufHandshake8255.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOsingleBufPatternGen.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\DO\DOsingleBufPatternGen.C
+Made Dir: C:\NI-DAQ\Examples\BorlandC\SCXI
+File Copy: C:\NI-DAQ\Examples\BorlandC\SCXI\SCXI_AIonePoint.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\SCXI\SCXI_AIonePoint.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\SCXI\SCXI_AOCurrentWrite.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\SCXI\SCXI_AOCurrentWrite.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\SCXI\SCXI_AOVoltWrite.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\SCXI\SCXI_AOVoltWrite.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\SCXI\SCXI_DIonePoint.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\SCXI\SCXI_DIonePoint.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\SCXI\SCXI_DOonePoint.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\SCXI\SCXI_DOonePoint.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\SCXI\SCXI_FREQonePoint.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\SCXI\SCXI_FREQonePoint.C
+File Copy: C:\NI-DAQ\Examples\BorlandC\SCXI\SCXI_SCANsingleBuf.BAT
+File Copy: C:\NI-DAQ\Examples\BorlandC\SCXI\SCXI_SCANsingleBuf.C
+Made Dir: C:\NI-DAQ\Examples\VisualC
+Made Dir: C:\NI-DAQ\Examples\VisualC\AI
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\AIonePoint.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\AIonePoint.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\AIonePointAMUX.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\AIonePointAMUX.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\AIonePointExtConv.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\AIonePointExtConv.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\AIonePointExtConv_Eseries.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\AIonePointExtConv_Eseries.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQdoubleBuf.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQdoubleBuf.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufAnalogTrig.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufAnalogTrig.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufAsync.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufAsync.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufExtConv.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufExtConv.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufExtConv_Eseries.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufExtConv_Eseries.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufExtTrig.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufExtTrig.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufExtTrig_Eseries.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufExtTrig_Eseries.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufStopTrig.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufStopTrig.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufStopTrig_Eseries.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufStopTrig_Eseries.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufSync.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufSync.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufToDisk.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\DAQsingleBufToDisk.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\SCANsingleBufAsync.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\SCANsingleBufAsync.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\SCANsingleBufExtScan.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\SCANsingleBufExtScan.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\SCANsingleBufExtScan_Eseries.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\SCANsingleBufExtScan_Eseries.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\SCANsingleBufMultiRate.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\SCANsingleBufMultiRate.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\SCANsingleBufSync.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\SCANsingleBufSync.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\SCC_A10.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\SCC_A10.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\SCC_CI20.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AI\SCC_CI20.MAK
+Made Dir: C:\NI-DAQ\Examples\VisualC\AO
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\AOonePoint.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\AOonePoint.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\AOonePointExtUpdate.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\AOonePointExtUpdate.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\AOonePointExtUpdate_Eseries.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\AOonePointExtUpdate_Eseries.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\WFMdoubleBuf.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\WFMdoubleBuf.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\WFMsingleBufAsync.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\WFMsingleBufAsync.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\WFMsingleBufExtTrig_Eseries.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\WFMsingleBufExtTrig_Eseries.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\WFMsingleBufExtUpdate.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\WFMsingleBufExtUpdate.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\WFMsingleBufExtUpdate_Eseries.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\WFMsingleBufExtUpdate_Eseries.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\WFMsingleBufFromDisk.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\WFMsingleBufFromDisk.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\WFMsingleBufRegenerate.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\WFMsingleBufRegenerate.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\WFMsingleBufSync.C
+File Copy: C:\NI-DAQ\Examples\VisualC\AO\WFMsingleBufSync.MAK
+Made Dir: C:\NI-DAQ\Examples\VisualC\CALIB
+File Copy: C:\NI-DAQ\Examples\VisualC\CALIB\Calibrate_Eseries.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CALIB\Calibrate_Eseries.MAK
+Made Dir: C:\NI-DAQ\Examples\VisualC\CTR
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\8253eventCount.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\8253eventCount.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\8253generateSinglePulse.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\8253generateSinglePulse.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\8253generateSquareWave.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\8253generateSquareWave.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\9513eventCount.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\9513eventCount.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\9513freqMeasure.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\9513freqMeasure.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\9513generateFreqOut.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\9513generateFreqOut.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\9513generateSinglePulse.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\9513generateSinglePulse.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\9513generateSquareWave.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\9513generateSquareWave.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\9513pulseWidthMeasure.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\9513pulseWidthMeasure.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCcountWithHWDirControl.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCcountWithHWDirControl.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCeventCount.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCeventCount.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCgenerateRepeatedTriggeredPulse.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCgenerateRepeatedTriggeredPulse.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCgenerateSinglePulse.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCgenerateSinglePulse.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCgenerateSingleTriggeredPulse.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCgenerateSingleTriggeredPulse.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCgenerateSquareWave.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCgenerateSquareWave.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCsingleBufEventCount.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCsingleBufEventCount.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCsingleBufPeriodMeasure.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCsingleBufPeriodMeasure.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCsingleBufPulseWidthMeasure.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCsingleBufPulseWidthMeasure.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCsingleBufSemiperiodMeasure.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCsingleBufSemiperiodMeasure.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCsinglePeriodMeasure.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCsinglePeriodMeasure.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCsinglePulseWidthMeasure.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCsinglePulseWidthMeasure.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCsingleTriggeredPulseWidthMeasure.C
+File Copy: C:\NI-DAQ\Examples\VisualC\CTR\STCsingleTriggeredPulseWidthMeasure.MAK
+Made Dir: C:\NI-DAQ\Examples\VisualC\DI
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIdoubleBufPatternGen.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIdoubleBufPatternGen.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIoneGroupHandshake.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIoneGroupHandshake.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIoneLine.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIoneLine.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIonePort.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIonePort.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIonePortHandshake.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIonePortHandshake.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIsingleBufExtTrig.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIsingleBufExtTrig.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIsingleBufHandshake.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIsingleBufHandshake.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIsingleBufHandshake8255.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIsingleBufHandshake8255.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIsingleBufPatternGen.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIsingleBufPatternGen.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIsingleBufPatternTrig.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DI\DIsingleBufPatternTrig.MAK
+Made Dir: C:\NI-DAQ\Examples\VisualC\DO
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOdoubleBufPatternGen.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOdoubleBufPatternGen.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOoneGroupHandshake.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOoneGroupHandshake.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOoneLine.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOoneLine.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOonePort.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOonePort.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOonePortHandshake.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOonePortHandshake.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOsingleBufExtTrig.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOsingleBufExtTrig.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOsingleBufHandshake.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOsingleBufHandshake.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOsingleBufHandshake8255.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOsingleBufHandshake8255.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOsingleBufPatternGen.C
+File Copy: C:\NI-DAQ\Examples\VisualC\DO\DOsingleBufPatternGen.MAK
+Made Dir: C:\NI-DAQ\Examples\VisualC\SCXI
+File Copy: C:\NI-DAQ\Examples\VisualC\SCXI\SCXI_AIonePoint.C
+File Copy: C:\NI-DAQ\Examples\VisualC\SCXI\SCXI_AIonePoint.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\SCXI\SCXI_AOCurrentWrite.C
+File Copy: C:\NI-DAQ\Examples\VisualC\SCXI\SCXI_AOCurrentWrite.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\SCXI\SCXI_AOVoltWrite.C
+File Copy: C:\NI-DAQ\Examples\VisualC\SCXI\SCXI_AOVoltWrite.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\SCXI\SCXI_DIonePoint.C
+File Copy: C:\NI-DAQ\Examples\VisualC\SCXI\SCXI_DIonePoint.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\SCXI\SCXI_DOonePoint.C
+File Copy: C:\NI-DAQ\Examples\VisualC\SCXI\SCXI_DOonePoint.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\SCXI\SCXI_FREQonePoint.C
+File Copy: C:\NI-DAQ\Examples\VisualC\SCXI\SCXI_FREQonePoint.MAK
+File Copy: C:\NI-DAQ\Examples\VisualC\SCXI\SCXI_SCANsingleBuf.C
+File Copy: C:\NI-DAQ\Examples\VisualC\SCXI\SCXI_SCANsingleBuf.MAK
+Made Dir: C:\NI-DAQ\LIB
+File Copy: C:\NI-DAQ\LIB\nidaq32.lib
+File Copy: C:\NI-DAQ\LIB\nidaq32b.lib
+File Copy: C:\NI-DAQ\LIB\nidex32.lib
+File Copy: C:\NI-DAQ\LIB\nidex32b.lib
+File Copy: C:\NI-DAQ\include\CONVERT.H
+File Copy: C:\NI-DAQ\include\nidaq.h
+File Copy: C:\NI-DAQ\include\nidaqcns.h
+File Copy: C:\NI-DAQ\include\nidaqerr.h
+File Copy: C:\NI-DAQ\include\NIDAQEX.H
+File Copy: C:\NI-DAQ\include\OLDERROR.H
+File Copy: C:\NI-DAQ\include\regdefs.h
+File Copy: C:\NI-DAQ\include\convert.c
+File Copy: C:\NI-DAQ\include\Nidaqex.c
+File Copy: C:\NI-DAQ\include\nidaqerr.inc
+File Copy: C:\NI-DAQ\include\nidaqcns.inc
+File Copy: C:\NI-DAQ\include\regdefs.inc
+File Copy: C:\NI-DAQ\include\nidaq32.bas
+File Copy: C:\NI-DAQ\include\convert.bas
+File Copy: C:\NI-DAQ\include\nidex32.bas
+Made Dir: C:\NI-DAQ\Examples\VBasic
+Made Dir: C:\NI-DAQ\Examples\VBasic\AI
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\AIonePoint.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\AIonePoint.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\AIonePointAMUX.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\AIonePointAMUX.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\AIonePointExtConv.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\AIonePointExtConv.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\AIonePointExtConv_Eseries.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\AIonePointExtConv_Eseries.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQdoubleBuf.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQdoubleBuf.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufAnalogTrig.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufAnalogTrig.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufAsync.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufAsync.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufExtConv.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufExtConv.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufExtConv_Eseries.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufExtConv_Eseries.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufExtTrig.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufExtTrig.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufExtTrig_Eseries.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufExtTrig_Eseries.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufStopTrig.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufStopTrig.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufStopTrig_Eseries.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufStopTrig_Eseries.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufSync.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufSync.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufToDisk.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\DAQsingleBufToDisk.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\SCANsingleBufAsync.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\SCANsingleBufAsync.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\SCANsingleBufExtScan.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\SCANsingleBufExtScan.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\SCANsingleBufExtScan_Eseries.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\SCANsingleBufExtScan_Eseries.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\SCANsingleBufMultiRate.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\SCANsingleBufMultiRate.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\SCANsingleBufSync.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\SCANsingleBufSync.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\SCC_A10.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\SCC_A10.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\SCC_CI20.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AI\SCC_CI20.VBP
+Made Dir: C:\NI-DAQ\Examples\VBasic\AO
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\AOonePoint.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\AOonePoint.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\AOonePointExtUpdate.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\AOonePointExtUpdate.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\AOonePointExtUpdate_Eseries.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\AOonePointExtUpdate_Eseries.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\WFMdoubleBuf.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\WFMdoubleBuf.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\WFMsingleBufAsync.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\WFMsingleBufAsync.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\WFMsingleBufExtTrig_Eseries.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\WFMsingleBufExtTrig_Eseries.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\WFMsingleBufExtUpdate.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\WFMsingleBufExtUpdate.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\WFMsingleBufExtUpdate_Eseries.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\WFMsingleBufExtUpdate_Eseries.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\WFMsingleBufFromDisk.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\WFMsingleBufFromDisk.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\WFMsingleBufRegenerate.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\WFMsingleBufRegenerate.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\WFMsingleBufSync.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\AO\WFMsingleBufSync.VBP
+Made Dir: C:\NI-DAQ\Examples\VBasic\CALIB
+File Copy: C:\NI-DAQ\Examples\VBasic\CALIB\Calibrate_Eseries.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CALIB\Calibrate_Eseries.VBP
+Made Dir: C:\NI-DAQ\Examples\VBasic\CTR
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\8253eventCount.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\8253eventCount.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\8253generateSinglePulse.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\8253generateSinglePulse.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\8253generateSquareWave.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\8253generateSquareWave.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\9513eventCount.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\9513eventCount.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\9513freqMeasure.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\9513freqMeasure.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\9513generateFreqOut.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\9513generateFreqOut.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\9513generateSinglePulse.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\9513generateSinglePulse.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\9513generateSquareWave.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\9513generateSquareWave.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\9513pulseWidthMeasure.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\9513pulseWidthMeasure.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCcountWithHWDirControl.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCcountWithHWDirControl.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCeventCount.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCeventCount.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCgenerateRepeatedTriggeredPulse.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCgenerateRepeatedTriggeredPulse.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCgenerateSinglePulse.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCgenerateSinglePulse.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCgenerateSingleTriggeredPulse.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCgenerateSingleTriggeredPulse.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCgenerateSquareWave.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCgenerateSquareWave.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCsingleBufEventCount.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCsingleBufEventCount.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCsingleBufPeriodMeasure.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCsingleBufPeriodMeasure.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCsingleBufPulseWidthMeasure.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCsingleBufPulseWidthMeasure.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCsingleBufSemiperiodMeasure.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCsingleBufSemiperiodMeasure.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCsinglePeriodMeasure.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCsinglePeriodMeasure.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCsinglePulseWidthMeasure.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCsinglePulseWidthMeasure.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCsingleTriggeredPulseWidthMeasure.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\CTR\STCsingleTriggeredPulseWidthMeasure.VBP
+Made Dir: C:\NI-DAQ\Examples\VBasic\DI
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIdoubleBufPatternGen.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIdoubleBufPatternGen.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIoneGroupHandshake.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIoneGroupHandshake.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIoneLine.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIoneLine.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIonePort.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIonePort.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIonePortHandshake.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIonePortHandshake.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIsingleBufExtTrig.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIsingleBufExtTrig.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIsingleBufHandshake.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIsingleBufHandshake.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIsingleBufHandshake8255.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIsingleBufHandshake8255.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIsingleBufPatternGen.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIsingleBufPatternGen.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIsingleBufPatternTrig.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DI\DIsingleBufPatternTrig.VBP
+Made Dir: C:\NI-DAQ\Examples\VBasic\DO
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOdoubleBufPatternGen.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOdoubleBufPatternGen.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOoneGroupHandshake.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOoneGroupHandshake.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOoneLine.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOoneLine.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOonePort.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOonePort.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOonePortHandshake.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOonePortHandshake.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOsingleBufExtTrig.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOsingleBufExtTrig.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOsingleBufHandshake.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOsingleBufHandshake.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOsingleBufHandshake8255.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOsingleBufHandshake8255.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOsingleBufPatternGen.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\DO\DOsingleBufPatternGen.VBP
+Made Dir: C:\NI-DAQ\Examples\VBasic\EVENT
+File Copy: C:\NI-DAQ\Examples\VBasic\EVENT\Event1.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\EVENT\event1.vbp
+Made Dir: C:\NI-DAQ\Examples\VBasic\SCXI
+File Copy: C:\NI-DAQ\Examples\VBasic\SCXI\SCXI_AIonePoint.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\SCXI\SCXI_AIonePoint.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\SCXI\SCXI_AOCurrentWrite.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\SCXI\SCXI_AOCurrentWrite.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\SCXI\SCXI_AOVoltWrite.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\SCXI\SCXI_AOVoltWrite.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\SCXI\SCXI_DIonePoint.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\SCXI\SCXI_DIonePoint.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\SCXI\SCXI_DOonePoint.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\SCXI\SCXI_DOonePoint.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\SCXI\SCXI_FREQonePoint.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\SCXI\SCXI_FREQonePoint.VBP
+File Copy: C:\NI-DAQ\Examples\VBasic\SCXI\SCXI_SCANsingleBuf.FRM
+File Copy: C:\NI-DAQ\Examples\VBasic\SCXI\SCXI_SCANsingleBuf.VBP
+File Copy: C:\WINDOWS\nidaq\alarmev.ocx
+File Copy: C:\WINDOWS\nidaq\atrigev.ocx
+File Copy: C:\WINDOWS\nidaq\daqevent.ocx
+Shell Link: C:\WINDOWS\Start Menu\Programs\National Instruments DAQ\NI-DAQ Configuration Utility.lnk
+Shell Link: C:\WINDOWS\Start Menu\Programs\National Instruments DAQ\Remote Device Access Server.lnk
+Shell Link: C:\WINDOWS\Start Menu\Programs\National Instruments DAQ\NI-DAQ Test Panels.lnk
+Shell Link: C:\WINDOWS\Start Menu\Programs\National Instruments DAQ\NI-DAQ Help.lnk
+Shell Link: C:\WINDOWS\Start Menu\Programs\National Instruments DAQ\NI-DAQ Readme File.lnk
+Shell Link: C:\WINDOWS\Start Menu\Programs\National Instruments DAQ\NI-DAQ Examples Help.lnk
+Self-Register: C:\WINDOWS\SYSTEM\CWUI.OCX
+Self-Register: C:\WINDOWS\NIDAQ\ALARMEV.OCX
+Self-Register: C:\WINDOWS\NIDAQ\ATRIGEV.OCX
+Self-Register: C:\WINDOWS\NIDAQ\DAQEVENT.OCX
